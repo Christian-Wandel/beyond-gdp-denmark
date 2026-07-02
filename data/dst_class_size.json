@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "source": "Danmarks Statistik StatBank API",
+    "table": "KVOTIEN",
+    "label": "Average class size, folkeskoler (all grades)",
+    "unit": "pupils per class",
+    "fetched": "2026-07-01",
+    "latest_year": "2025"
+  },
+  "data": {
+    "DNK": {
+      "name": "Denmark",
+      "value": 20.7,
+      "year": "2025",
+      "series": {
+        "2009": 20.1,
+        "2010": 20.3,
+        "2011": 20.9,
+        "2012": 21.3,
+        "2013": 21.4,
+        "2014": 21.4,
+        "2015": 21.5,
+        "2016": 21.6,
+        "2017": 21.6,
+        "2018": 21.5,
+        "2019": 21.4,
+        "2020": 21.2,
+        "2021": 21.0,
+        "2022": 20.9,
+        "2023": 20.9,
+        "2024": 20.8,
+        "2025": 20.7
+      }
+    }
+  }
+}

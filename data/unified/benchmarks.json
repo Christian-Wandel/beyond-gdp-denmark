@@ -1,0 +1,178 @@
+{
+  "bii": {
+    "label": "Biodiversity Intactness Index",
+    "unit": "percent",
+    "direction": "higher_better",
+    "value": 83.25,
+    "year": 2016,
+    "value_norm": 44.17,
+    "global_median": 87.36,
+    "country_count": 174,
+    "source": "HLEG bii.json"
+  },
+  "pm25": {
+    "label": "PM2.5 Air Quality",
+    "unit": "µg/m³",
+    "direction": "lower_better",
+    "value": 7.7133,
+    "year": 2023,
+    "value_norm": 86.43,
+    "global_median": 13.9168,
+    "country_count": 227,
+    "source": "HLEG pm25.json"
+  },
+  "produced_capital": {
+    "label": "Produced Capital per Capita",
+    "unit": "USD",
+    "direction": "higher_better",
+    "value": 215994.0,
+    "year": 2020,
+    "value_norm": 100.0,
+    "global_median": 6872.96,
+    "country_count": 151,
+    "source": "HLEG produced_capital.json"
+  },
+  "hale": {
+    "label": "Healthy Life Expectancy",
+    "unit": "years",
+    "direction": "higher_better",
+    "value": 70.0569,
+    "year": 2021,
+    "value_norm": 75.28,
+    "global_median": 62.8797,
+    "country_count": 185,
+    "source": "HLEG hale.json"
+  },
+  "gender_pay_ratio": {
+    "label": "Gender Pay Ratio",
+    "unit": "ratio (0-1)",
+    "direction": "higher_better",
+    "value": 0.8405,
+    "year": 2014,
+    "value_norm": 46.83,
+    "global_median": 0.9191,
+    "country_count": 132,
+    "source": "HLEG gender_pay_ratio.json"
+  },
+  "household_income": {
+    "label": "Household Income per Capita",
+    "unit": "USD",
+    "direction": "higher_better",
+    "value": 71021.49,
+    "year": 2024,
+    "value_norm": 93.4,
+    "global_median": 7189.6,
+    "country_count": 185,
+    "source": "HLEG household_income.json"
+  },
+  "hale_intl": {
+    "label": "Healthy Life Expectancy (WHO)",
+    "unit": "years",
+    "direction": "higher_better",
+    "value": 70.0569,
+    "year": 2021,
+    "value_norm": 75.28,
+    "global_median": 62.8797,
+    "country_count": 185,
+    "source": "HLEG hale.json"
+  },
+  "ghg_total_intl": {
+    "label": "Total GHG (international, incl. LULUCF)",
+    "unit": "MtCO2e",
+    "direction": "lower_better",
+    "value": 38.1,
+    "year": 2023,
+    "value_norm": 94.21,
+    "global_median": 43.03,
+    "country_count": 195,
+    "source": "HLEG ghg_total.json"
+  },
+  "co2_per_capita": {
+    "label": "CO2 per Capita",
+    "unit": "tCO2/person",
+    "direction": "lower_better",
+    "value": 4.98,
+    "year": 2022,
+    "value_norm": 62.75,
+    "global_median": 2.542,
+    "country_count": 175,
+    "source": "HLEG co2.json"
+  },
+  "homicide_rate": {
+    "label": "Homicide Rate",
+    "unit": "per 100k",
+    "direction": "lower_better",
+    "value": 1.6811,
+    "year": 2021,
+    "value_norm": 100.0,
+    "global_median": 3.6506,
+    "country_count": 185,
+    "source": "HLEG homicide_rate.json"
+  },
+  "drinking_water": {
+    "label": "Safely Managed Drinking Water",
+    "unit": "percent",
+    "direction": "higher_better",
+    "value": 99.92,
+    "year": 2024,
+    "value_norm": 100.0,
+    "global_median": 82.18,
+    "country_count": 163,
+    "source": "HLEG drinking_water.json"
+  },
+  "poverty_societal": {
+    "label": "Societal Poverty Rate ($6.85/day)",
+    "unit": "percent",
+    "direction": "lower_better",
+    "value": 7.4,
+    "year": 2023,
+    "value_norm": 88.0,
+    "global_median": 22.6,
+    "country_count": 173,
+    "source": "HLEG poverty_societal.json"
+  },
+  "ipv": {
+    "label": "Intimate Partner Violence",
+    "unit": "percent women",
+    "direction": "lower_better",
+    "value": 2.9,
+    "year": 2023,
+    "value_norm": 100.0,
+    "global_median": 8.1,
+    "country_count": 164,
+    "source": "HLEG ipv.json"
+  },
+  "lu4": {
+    "label": "Labour Underutilization LU4",
+    "unit": "percent",
+    "direction": "lower_better",
+    "value": 12.856,
+    "year": 2024,
+    "value_norm": 40.48,
+    "global_median": 13.25,
+    "country_count": 142,
+    "source": "HLEG lu4.json"
+  },
+  "lbw": {
+    "label": "Low Birthweight",
+    "unit": "percent",
+    "direction": "lower_better",
+    "value": 4.8,
+    "year": 2020,
+    "value_norm": 100.0,
+    "global_median": 10.2,
+    "country_count": 158,
+    "source": "HLEG lbw.json"
+  },
+  "poverty_rate": {
+    "label": "Poverty Rate (national, tiered)",
+    "unit": "percent",
+    "direction": "lower_better",
+    "value": 3.3265,
+    "year": 2023,
+    "value_norm": 97.67,
+    "global_median": 20.6681,
+    "country_count": 160,
+    "source": "HLEG poverty_rate.json"
+  }
+}

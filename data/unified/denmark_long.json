@@ -1,0 +1,10250 @@
+[
+  {
+    "indicator": "population",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1966,
+    "value": 760.0,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1966,
+    "value": 1014845161.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1966,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1967,
+    "value": 804.7,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1967,
+    "value": 1091674491.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1967,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1968,
+    "value": 851.8,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1968,
+    "value": 1195769418.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1968,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1969,
+    "value": 909.7,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1969,
+    "value": 1421689368.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1969,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1970,
+    "value": 926.6,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1970,
+    "value": 1593552329.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1970,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1971,
+    "value": 956.0,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1971,
+    "value": 1578893599.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1971,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1972,
+    "value": 992.3,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1972,
+    "value": 1601517937.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1972,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1973,
+    "value": 1039.2,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1973,
+    "value": 1599588453.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1973,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1974,
+    "value": 1029.2,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1974,
+    "value": 1538616834.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1974,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1975,
+    "value": 1014.6,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1975,
+    "value": 1464428735.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1975,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1976,
+    "value": 1075.5,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1976,
+    "value": 1501275922.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1976,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1977,
+    "value": 1096.8,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1977,
+    "value": 1567525275.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1977,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1978,
+    "value": 1123.3,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1978,
+    "value": 1569254116.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1978,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1979,
+    "value": 1168.8,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1979,
+    "value": 1635652027.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1979,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1980,
+    "value": 1160.1,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1980,
+    "value": 1481835921.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1980,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1981,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1981,
+    "value": 74.41,
+    "value_norm": 27.56,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1981,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1981,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1981,
+    "value": 1151.5,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1981,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1981,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1981,
+    "value": 1409109066.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1981,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1981,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1981,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1981,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1981,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1981,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1981,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1981,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1981,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1981,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1981,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1981,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1981,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1981,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1981,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1981,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1982,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1982,
+    "value": 74.52,
+    "value_norm": 28.25,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1982,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1982,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1982,
+    "value": 1196.3,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1982,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1982,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1982,
+    "value": 1371198029.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1982,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1982,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1982,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1982,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1982,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1982,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1982,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1982,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1982,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1982,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1982,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1982,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1982,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1982,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1982,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1982,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1983,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1983,
+    "value": 74.53,
+    "value_norm": 28.31,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1983,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1983,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1983,
+    "value": 1228.0,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1983,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1983,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1983,
+    "value": 1396365151.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1983,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1983,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1983,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1983,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1983,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1983,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1983,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1983,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1983,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1983,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1983,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1983,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1983,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1983,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1983,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1983,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1984,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1984,
+    "value": 74.56,
+    "value_norm": 28.5,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1984,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1984,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1984,
+    "value": 1281.3,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1984,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1984,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1984,
+    "value": 1444218437.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1984,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1984,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1984,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1984,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1984,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1984,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1984,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1984,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1984,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1984,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1984,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1984,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1984,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1984,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1984,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1984,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1985,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1985,
+    "value": 74.57,
+    "value_norm": 28.56,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1985,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1985,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1985,
+    "value": 1334.5,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1985,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1985,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1985,
+    "value": 1620878360.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1985,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1985,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1985,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1985,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1985,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1985,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1985,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1985,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1985,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1985,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1985,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1985,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1985,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1985,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1985,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1985,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1986,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1986,
+    "value": 74.69,
+    "value_norm": 29.31,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1986,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1986,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1986,
+    "value": 1397.7,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1986,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1986,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1986,
+    "value": 1728827706.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1986,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1986,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1986,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1986,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1986,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1986,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1986,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1986,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1986,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1986,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1986,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1986,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1986,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1986,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1986,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1986,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1987,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1987,
+    "value": 74.77,
+    "value_norm": 29.81,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1987,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1987,
+    "value": 78135.0,
+    "value_norm": 0.0,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1987,
+    "value": 1404.2,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1987,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1987,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1987,
+    "value": 1780520489.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1987,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1987,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1987,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1987,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1987,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1987,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1987,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1987,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1987,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1987,
+    "value": 22.07,
+    "value_norm": 100.0,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1987,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1987,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1987,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1987,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1987,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1987,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1988,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1988,
+    "value": 74.84,
+    "value_norm": 30.25,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1988,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1988,
+    "value": 82304.0,
+    "value_norm": 0.0,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1988,
+    "value": 1408.0,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1988,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1988,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1988,
+    "value": 1755353637.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1988,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1988,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1988,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1988,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1988,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1988,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1988,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1988,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1988,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1988,
+    "value": 22.06,
+    "value_norm": 100.0,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1988,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1988,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1988,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1988,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1988,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1988,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1989,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1989,
+    "value": 74.85,
+    "value_norm": 30.31,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1989,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1989,
+    "value": 87011.0,
+    "value_norm": 0.0,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1989,
+    "value": 1417.8,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1989,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1989,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1989,
+    "value": 1828823293.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1989,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1989,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1989,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1989,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1989,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1989,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1989,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1989,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1989,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1989,
+    "value": 21.93,
+    "value_norm": 100.0,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1989,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1989,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1989,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1989,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1989,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1989,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1990,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1990,
+    "value": 75.0,
+    "value_norm": 31.25,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1990,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1990,
+    "value": 90433.0,
+    "value_norm": 0.0,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1990,
+    "value": 1441.4,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1990,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1990,
+    "value": 73695.0,
+    "value_norm": 43.84,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1990,
+    "value": 1819498199.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1990,
+    "value": 76964123.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1990,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1990,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1990,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1990,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1990,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1990,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1990,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1990,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1990,
+    "value": 22.16,
+    "value_norm": 100.0,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1990,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1990,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1990,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1990,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1990,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1990,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1991,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1991,
+    "value": 75.19,
+    "value_norm": 32.44,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1991,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1991,
+    "value": 94633.0,
+    "value_norm": 0.0,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1991,
+    "value": 1462.4,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1991,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1991,
+    "value": 85733.0,
+    "value_norm": 23.78,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1991,
+    "value": 2102757677.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1991,
+    "value": 83702049.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1991,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1991,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1991,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1991,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1991,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1991,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1991,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1991,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1991,
+    "value": 21.99,
+    "value_norm": 100.0,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1991,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1991,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1991,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1991,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1991,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1991,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1992,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1992,
+    "value": 75.16,
+    "value_norm": 32.25,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1992,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1992,
+    "value": 97606.0,
+    "value_norm": 0.0,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1992,
+    "value": 1492.0,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1992,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1992,
+    "value": 78116.0,
+    "value_norm": 36.47,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1992,
+    "value": 2131653954.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1992,
+    "value": 79575888.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1992,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1992,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1992,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1992,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1992,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1992,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1992,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1992,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1992,
+    "value": 22.34,
+    "value_norm": 100.0,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1992,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1992,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1992,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1992,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1992,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1992,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1993,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1993,
+    "value": 75.25,
+    "value_norm": 32.81,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1993,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1993,
+    "value": 100790.0,
+    "value_norm": 0.4,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1993,
+    "value": 1490.8,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1993,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1993,
+    "value": 82361.0,
+    "value_norm": 29.4,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1993,
+    "value": 2230946427.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1993,
+    "value": 79290391.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1993,
+    "value": 123912383.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1993,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1993,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1993,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1993,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1993,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1993,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1993,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1993,
+    "value": 22.79,
+    "value_norm": 100.0,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1993,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1993,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1993,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1993,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1993,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1993,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1994,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1994,
+    "value": 75.32,
+    "value_norm": 33.25,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1994,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1994,
+    "value": 107810.0,
+    "value_norm": 3.9,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1994,
+    "value": 1569.7,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1994,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1994,
+    "value": 84790.0,
+    "value_norm": 25.35,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1994,
+    "value": 2315029416.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1994,
+    "value": 83870415.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1994,
+    "value": 126853061.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1994,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1994,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1994,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1994,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1994,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1994,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1994,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1994,
+    "value": 22.5,
+    "value_norm": 100.0,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1994,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1994,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1994,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1994,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1994,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1994,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1995,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1995,
+    "value": 75.44,
+    "value_norm": 34.0,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1995,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1995,
+    "value": 112860.0,
+    "value_norm": 6.43,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1995,
+    "value": 1617.4,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1995,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1995,
+    "value": 83021.0,
+    "value_norm": 28.3,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1995,
+    "value": 2413475367.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1995,
+    "value": 86856791.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1995,
+    "value": 132665512.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1995,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1995,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1995,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1995,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1995,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1995,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1995,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1995,
+    "value": 22.41,
+    "value_norm": 100.0,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1995,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1995,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1995,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1995,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1995,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1995,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1996,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1996,
+    "value": 75.82,
+    "value_norm": 36.37,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1996,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1996,
+    "value": 117333.0,
+    "value_norm": 8.67,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1996,
+    "value": 1664.3,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1996,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1996,
+    "value": 95704.0,
+    "value_norm": 7.16,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1996,
+    "value": 2656246896.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1996,
+    "value": 90953205.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1996,
+    "value": 137888406.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1996,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1996,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1996,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1996,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1996,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1996,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1996,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1996,
+    "value": 22.83,
+    "value_norm": 100.0,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1996,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1996,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1996,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1996,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1996,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1996,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1997,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1997,
+    "value": 76.17,
+    "value_norm": 38.56,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1997,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1997,
+    "value": 122174.0,
+    "value_norm": 11.09,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1997,
+    "value": 1717.0,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1997,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1997,
+    "value": 87933.0,
+    "value_norm": 20.11,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1997,
+    "value": 2721198908.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1997,
+    "value": 87150812.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1997,
+    "value": 145036818.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1997,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1997,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1997,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1997,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1997,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1997,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1997,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1997,
+    "value": 23.47,
+    "value_norm": 100.0,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1997,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1997,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1997,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1997,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1997,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1997,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1998,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1998,
+    "value": 76.41,
+    "value_norm": 40.06,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1998,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1998,
+    "value": 127671.0,
+    "value_norm": 13.84,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1998,
+    "value": 1756.9,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1998,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1998,
+    "value": 88139.0,
+    "value_norm": 19.77,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1998,
+    "value": 2609740598.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1998,
+    "value": 87163225.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1998,
+    "value": 139296648.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1998,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1998,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1998,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1998,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1998,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1998,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1998,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1998,
+    "value": 23.81,
+    "value_norm": 100.0,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1998,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1998,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1998,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1998,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1998,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1998,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 1999,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 1999,
+    "value": 76.66,
+    "value_norm": 41.62,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 1999,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 1999,
+    "value": 131454.0,
+    "value_norm": 15.73,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 1999,
+    "value": 1809.1,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 1999,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 1999,
+    "value": 84430.0,
+    "value_norm": 25.95,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 1999,
+    "value": 2701468811.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 1999,
+    "value": 79966964.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 1999,
+    "value": 148981243.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 1999,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 1999,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 1999,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 1999,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 1999,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 1999,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 1999,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 1999,
+    "value": 23.83,
+    "value_norm": 100.0,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 1999,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 1999,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 1999,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 1999,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 1999,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 1999,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2000,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2000,
+    "value": 76.85,
+    "value_norm": 42.81,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2000,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2000,
+    "value": 136932.0,
+    "value_norm": 18.47,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2000,
+    "value": 1876.4,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2000,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2000,
+    "value": 83998.0,
+    "value_norm": 26.67,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2000,
+    "value": 2891959844.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2000,
+    "value": 78069234.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2000,
+    "value": 136967443.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2000,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2000,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2000,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2000,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2000,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2000,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2000,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2000,
+    "value": 24.38,
+    "value_norm": 100.0,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2000,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2000,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2000,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2000,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2000,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2000,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2001,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2001,
+    "value": 76.94,
+    "value_norm": 43.37,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2001,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2001,
+    "value": 141861.0,
+    "value_norm": 20.93,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2001,
+    "value": 1894.3,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2001,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2001,
+    "value": 84538.0,
+    "value_norm": 25.77,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2001,
+    "value": 2870731664.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2001,
+    "value": 78268419.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2001,
+    "value": 134421954.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2001,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2001,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2001,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2001,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2001,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2001,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2001,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2001,
+    "value": 24.4,
+    "value_norm": 100.0,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2001,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2001,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2001,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2001,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2001,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2001,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2002,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2002,
+    "value": 77.19,
+    "value_norm": 44.94,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2002,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2002,
+    "value": 147157.0,
+    "value_norm": 23.58,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2002,
+    "value": 1902.9,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2002,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2002,
+    "value": 85691.0,
+    "value_norm": 23.85,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2002,
+    "value": 2921540255.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2002,
+    "value": 76332059.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2002,
+    "value": 128732466.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2002,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2002,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2002,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2002,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2002,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2002,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2002,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2002,
+    "value": 24.03,
+    "value_norm": 100.0,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2002,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2002,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2002,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2002,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2002,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2002,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2003,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2003,
+    "value": 77.54,
+    "value_norm": 47.13,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2003,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2003,
+    "value": 151255.0,
+    "value_norm": 25.63,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2003,
+    "value": 1911.3,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2003,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2003,
+    "value": 94524.0,
+    "value_norm": 9.13,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2003,
+    "value": 3053646852.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2003,
+    "value": 81730867.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2003,
+    "value": 132458170.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2003,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2003,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2003,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2003,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2003,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2003,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2003,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2003,
+    "value": 24.14,
+    "value_norm": 100.0,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2003,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2003,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2003,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2003,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2003,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2003,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2004,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2004,
+    "value": 77.94,
+    "value_norm": 49.62,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2004,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2004,
+    "value": 160083.0,
+    "value_norm": 30.04,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2004,
+    "value": 1964.4,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2004,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2004,
+    "value": 90002.0,
+    "value_norm": 16.66,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2004,
+    "value": 3208822585.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2004,
+    "value": 83550579.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2004,
+    "value": 139368425.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2004,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2004,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2004,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2004,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2004,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2004,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2004,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2004,
+    "value": 24.68,
+    "value_norm": 100.0,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2004,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2004,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2004,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2004,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2004,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2004,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2005,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2005,
+    "value": 78.16,
+    "value_norm": 51.14,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2005,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2005,
+    "value": 166784.0,
+    "value_norm": 33.39,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2005,
+    "value": 2010.7,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2005,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2005,
+    "value": 93723.0,
+    "value_norm": 10.46,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2005,
+    "value": 3320813703.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2005,
+    "value": 84838509.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2005,
+    "value": 151100476.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2005,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2005,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2005,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2005,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2005,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2005,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2005,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2005,
+    "value": 25.66,
+    "value_norm": 93.4,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2005,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2005,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2005,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2005,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2005,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2005,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2006,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2006,
+    "value": 78.22,
+    "value_norm": 51.57,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2006,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2006,
+    "value": 173270.0,
+    "value_norm": 36.63,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2006,
+    "value": 2087.5,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2006,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2006,
+    "value": 111407.0,
+    "value_norm": 0.0,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2006,
+    "value": 3440360260.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2006,
+    "value": 89895409.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2006,
+    "value": 160729717.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2006,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2006,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2006,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2006,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2006,
+    "value": 10.86,
+    "value_norm": 9.5,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2006,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2006,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2006,
+    "value": 26.28,
+    "value_norm": 87.2,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2006,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2006,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2006,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2006,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2006,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2006,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2007,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2007,
+    "value": 78.48,
+    "value_norm": 53.43,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2007,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2007,
+    "value": 177530.0,
+    "value_norm": 38.77,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2007,
+    "value": 2108.1,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2007,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2007,
+    "value": 108186.0,
+    "value_norm": 0.0,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2007,
+    "value": 3214826477.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2007,
+    "value": 89518850.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2007,
+    "value": 155788770.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2007,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2007,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2007,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2007,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2007,
+    "value": 9.69,
+    "value_norm": 19.25,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2007,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2007,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2007,
+    "value": 27.02,
+    "value_norm": 79.8,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2007,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2007,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2007,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2007,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2007,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2007,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2008,
+    "value": 5505995.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2008,
+    "value": 78.63,
+    "value_norm": 54.5,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2008,
+    "value": 3.675,
+    "value_norm": 88.75,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2008,
+    "value": 176201.0,
+    "value_norm": 38.1,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2008,
+    "value": 2099.3,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2008,
+    "value": 3903627.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2008,
+    "value": 102154.0,
+    "value_norm": 0.0,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2008,
+    "value": 3287102720.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2008,
+    "value": 84648809.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2008,
+    "value": 149321586.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2008,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2008,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2008,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2008,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2008,
+    "value": 9.85,
+    "value_norm": 17.92,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2008,
+    "value": 25.25,
+    "value_norm": 26.25,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2008,
+    "value": 10.01,
+    "value_norm": 49.94,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2008,
+    "value": 27.94,
+    "value_norm": 70.6,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2008,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2008,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2008,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2008,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2008,
+    "value": 15.3739,
+    "value_norm": 0.0,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2008,
+    "value": 27.1198,
+    "value_norm": 5.5,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2009,
+    "value": 5532531.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2009,
+    "value": 79.13,
+    "value_norm": 58.07,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2009,
+    "value": 6.425,
+    "value_norm": 46.46,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2009,
+    "value": 179308.0,
+    "value_norm": 39.65,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2009,
+    "value": 1994.8,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2009,
+    "value": 3926254.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2009,
+    "value": 95974.0,
+    "value_norm": 6.71,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2009,
+    "value": 3023749646.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2009,
+    "value": 77837274.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2009,
+    "value": 125573405.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2009,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2009,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2009,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2009,
+    "value": 20.1,
+    "value_norm": 65.0,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2009,
+    "value": 8.83,
+    "value_norm": 26.42,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2009,
+    "value": 25.85,
+    "value_norm": 29.25,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2009,
+    "value": 11.35,
+    "value_norm": 41.56,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2009,
+    "value": 26.74,
+    "value_norm": 82.6,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2009,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2009,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2009,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2009,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2009,
+    "value": 14.069,
+    "value_norm": 0.0,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2009,
+    "value": 22.6973,
+    "value_norm": 33.14,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2010,
+    "value": 5557709.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2010,
+    "value": 79.48,
+    "value_norm": 60.57,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2010,
+    "value": 7.75,
+    "value_norm": 35.42,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2010,
+    "value": 195011.0,
+    "value_norm": 47.51,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2010,
+    "value": 2026.4,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2010,
+    "value": 3947812.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2010,
+    "value": 94606.0,
+    "value_norm": 8.99,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2010,
+    "value": 2893730469.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2010,
+    "value": 76718105.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2010,
+    "value": 117714906.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2010,
+    "value": 942650.0,
+    "value_norm": 52.72,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2010,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2010,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2010,
+    "value": 20.3,
+    "value_norm": 61.67,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2010,
+    "value": 7.85,
+    "value_norm": 34.58,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2010,
+    "value": 26.47,
+    "value_norm": 32.35,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2010,
+    "value": 11.04,
+    "value_norm": 43.5,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2010,
+    "value": 27.47,
+    "value_norm": 75.3,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2010,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2010,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2010,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2010,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2010,
+    "value": 13.8039,
+    "value_norm": 0.0,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2010,
+    "value": 21.1805,
+    "value_norm": 42.62,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2011,
+    "value": 5579204.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2011,
+    "value": 79.89,
+    "value_norm": 63.5,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2011,
+    "value": 7.775,
+    "value_norm": 35.21,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2011,
+    "value": 199057.0,
+    "value_norm": 49.53,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2011,
+    "value": 2053.0,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2011,
+    "value": 3964178.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2011,
+    "value": 94097.0,
+    "value_norm": 9.84,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2011,
+    "value": 2857833500.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2011,
+    "value": 74861005.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2011,
+    "value": 131190549.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2011,
+    "value": 960590.0,
+    "value_norm": 46.47,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2011,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2011,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2011,
+    "value": 20.9,
+    "value_norm": 51.67,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2011,
+    "value": 6.83,
+    "value_norm": 43.08,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2011,
+    "value": 27.1,
+    "value_norm": 35.5,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2011,
+    "value": 10.62,
+    "value_norm": 46.13,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2011,
+    "value": 27.68,
+    "value_norm": 73.2,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2011,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2011,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2011,
+    "value": 6.8,
+    "value_norm": 30.0,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2011,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2011,
+    "value": 13.4179,
+    "value_norm": 0.0,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2011,
+    "value": 23.5142,
+    "value_norm": 28.04,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2012,
+    "value": 5599665.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2012,
+    "value": 79.99,
+    "value_norm": 64.21,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2012,
+    "value": 7.8,
+    "value_norm": 35.0,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2012,
+    "value": 204037.0,
+    "value_norm": 51.35,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2012,
+    "value": 2052.9,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2012,
+    "value": 3977036.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2012,
+    "value": 87096.0,
+    "value_norm": 21.51,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2012,
+    "value": 2741251156.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2012,
+    "value": 68994967.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2012,
+    "value": 131710234.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2012,
+    "value": 871960.0,
+    "value_norm": 78.9,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2012,
+    "value": 169712.0,
+    "value_norm": 12.32,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2012,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2012,
+    "value": 21.3,
+    "value_norm": 47.0,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2012,
+    "value": 7.91,
+    "value_norm": 34.08,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2012,
+    "value": 27.73,
+    "value_norm": 38.65,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2012,
+    "value": 10.66,
+    "value_norm": 45.88,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2012,
+    "value": 27.37,
+    "value_norm": 76.3,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2012,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2012,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2012,
+    "value": 6.9,
+    "value_norm": 40.0,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2012,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2012,
+    "value": 12.3213,
+    "value_norm": 0.0,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2012,
+    "value": 23.5211,
+    "value_norm": 27.99,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2013,
+    "value": 5623501.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2013,
+    "value": 80.62,
+    "value_norm": 68.71,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2013,
+    "value": 7.4,
+    "value_norm": 38.33,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2013,
+    "value": 209655.0,
+    "value_norm": 53.22,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2013,
+    "value": 2081.5,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2013,
+    "value": 3988102.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2013,
+    "value": 85235.0,
+    "value_norm": 24.61,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2013,
+    "value": 2717908989.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2013,
+    "value": 71190371.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2013,
+    "value": 124379919.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2013,
+    "value": 1014920.0,
+    "value_norm": 28.36,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2013,
+    "value": 164358.0,
+    "value_norm": 8.97,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2013,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2013,
+    "value": 21.4,
+    "value_norm": 46.0,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2013,
+    "value": 7.9,
+    "value_norm": 34.17,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2013,
+    "value": 28.52,
+    "value_norm": 42.6,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2013,
+    "value": 10.53,
+    "value_norm": 46.69,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2013,
+    "value": 27.88,
+    "value_norm": 71.2,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2013,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2013,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2013,
+    "value": 7.0,
+    "value_norm": 50.0,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2013,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2013,
+    "value": 12.6594,
+    "value_norm": 0.0,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2013,
+    "value": 22.1179,
+    "value_norm": 36.76,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2014,
+    "value": 5655750.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2014,
+    "value": 80.57,
+    "value_norm": 68.36,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2014,
+    "value": 6.95,
+    "value_norm": 42.08,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2014,
+    "value": 214009.0,
+    "value_norm": 54.67,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2014,
+    "value": 2108.1,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2014,
+    "value": 3999347.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2014,
+    "value": 80027.0,
+    "value_norm": 33.29,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2014,
+    "value": 2487828176.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2014,
+    "value": 69822312.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2014,
+    "value": 124988089.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2014,
+    "value": 1012155.0,
+    "value_norm": 29.28,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2014,
+    "value": 174193.0,
+    "value_norm": 15.12,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2014,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2014,
+    "value": 21.4,
+    "value_norm": 46.0,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2014,
+    "value": 7.8,
+    "value_norm": 35.0,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2014,
+    "value": 29.44,
+    "value_norm": 47.2,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2014,
+    "value": 10.53,
+    "value_norm": 46.69,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2014,
+    "value": 28.33,
+    "value_norm": 66.7,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2014,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2014,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2014,
+    "value": 7.1,
+    "value_norm": 60.0,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2014,
+    "value": null,
+    "value_norm": null,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2014,
+    "value": 12.3454,
+    "value_norm": 0.0,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2014,
+    "value": 22.0993,
+    "value_norm": 36.88,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2015,
+    "value": 5699220.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2015,
+    "value": 80.82,
+    "value_norm": 70.14,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2015,
+    "value": 6.275,
+    "value_norm": 47.71,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2015,
+    "value": 220185.0,
+    "value_norm": 56.73,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2015,
+    "value": 2152.4,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2015,
+    "value": 4015809.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2015,
+    "value": 83408.0,
+    "value_norm": 27.65,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2015,
+    "value": 2615074852.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2015,
+    "value": 65052089.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2015,
+    "value": 130085701.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2015,
+    "value": 937555.0,
+    "value_norm": 54.61,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2015,
+    "value": 198451.0,
+    "value_norm": 30.28,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2015,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2015,
+    "value": 21.5,
+    "value_norm": 45.0,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2015,
+    "value": 8.59,
+    "value_norm": 28.42,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2015,
+    "value": 30.49,
+    "value_norm": 51.63,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2015,
+    "value": 11.29,
+    "value_norm": 41.94,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2015,
+    "value": 28.77,
+    "value_norm": 62.3,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2015,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2015,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2015,
+    "value": 7.3,
+    "value_norm": 80.0,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2015,
+    "value": 3.7,
+    "value_norm": 50.0,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2015,
+    "value": 11.4142,
+    "value_norm": 7.32,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2015,
+    "value": 22.8252,
+    "value_norm": 32.34,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2016,
+    "value": 5745526.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2016,
+    "value": 80.91,
+    "value_norm": 70.79,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2016,
+    "value": 6.0,
+    "value_norm": 50.0,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2016,
+    "value": 223438.0,
+    "value_norm": 57.81,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2016,
+    "value": 2218.6,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2016,
+    "value": 4027369.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2016,
+    "value": 88821.0,
+    "value_norm": 18.63,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2016,
+    "value": 2552219175.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2016,
+    "value": 68633900.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2016,
+    "value": 137512737.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2016,
+    "value": 886995.0,
+    "value_norm": 73.34,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2016,
+    "value": 215474.0,
+    "value_norm": 40.92,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2016,
+    "value": 104351.35,
+    "value_norm": 60.88,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2016,
+    "value": 21.6,
+    "value_norm": 44.0,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2016,
+    "value": 8.72,
+    "value_norm": 27.33,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2016,
+    "value": 31.64,
+    "value_norm": 55.47,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2016,
+    "value": 10.81,
+    "value_norm": 44.94,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2016,
+    "value": 28.97,
+    "value_norm": 60.3,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2016,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2016,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2016,
+    "value": 7.4,
+    "value_norm": 90.0,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2016,
+    "value": 3.8,
+    "value_norm": 66.67,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2016,
+    "value": 11.9456,
+    "value_norm": 0.68,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2016,
+    "value": 23.9339,
+    "value_norm": 25.41,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2017,
+    "value": 5778570.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2017,
+    "value": 80.97,
+    "value_norm": 71.21,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2017,
+    "value": 5.825,
+    "value_norm": 52.92,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2017,
+    "value": 229875.0,
+    "value_norm": 59.96,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2017,
+    "value": 2286.4,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2017,
+    "value": 4030695.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2017,
+    "value": 87949.0,
+    "value_norm": 20.09,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2017,
+    "value": 2628931312.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2017,
+    "value": 66408902.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2017,
+    "value": 139808200.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2017,
+    "value": 895798.0,
+    "value_norm": 70.07,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2017,
+    "value": 230563.0,
+    "value_norm": 50.23,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2017,
+    "value": 104871.9,
+    "value_norm": 62.18,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2017,
+    "value": 21.6,
+    "value_norm": 44.0,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2017,
+    "value": 9.68,
+    "value_norm": 19.33,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2017,
+    "value": 32.41,
+    "value_norm": 58.03,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2017,
+    "value": 10.48,
+    "value_norm": 47.0,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2017,
+    "value": 29.32,
+    "value_norm": 56.8,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2017,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2017,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2017,
+    "value": 7.4,
+    "value_norm": 90.0,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2017,
+    "value": 3.8,
+    "value_norm": 66.67,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2017,
+    "value": 11.4923,
+    "value_norm": 6.35,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2017,
+    "value": 24.1943,
+    "value_norm": 23.79,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2018,
+    "value": 5806015.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2018,
+    "value": 81.26,
+    "value_norm": 73.29,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2018,
+    "value": 5.125,
+    "value_norm": 64.58,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2018,
+    "value": 235312.0,
+    "value_norm": 61.77,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2018,
+    "value": 2328.9,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2018,
+    "value": 4036335.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2018,
+    "value": 88639.0,
+    "value_norm": 18.93,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2018,
+    "value": 2537193151.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2018,
+    "value": 67710325.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2018,
+    "value": 140548227.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2018,
+    "value": 1105817.0,
+    "value_norm": 0.0,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2018,
+    "value": 230097.0,
+    "value_norm": 50.04,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2018,
+    "value": 105141.27,
+    "value_norm": 62.85,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2018,
+    "value": 21.5,
+    "value_norm": 45.0,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2018,
+    "value": 6.95,
+    "value_norm": 42.08,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2018,
+    "value": 33.2,
+    "value_norm": 60.67,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2018,
+    "value": 10.36,
+    "value_norm": 47.75,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2018,
+    "value": 29.1,
+    "value_norm": 59.0,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2018,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2018,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2018,
+    "value": 7.4,
+    "value_norm": 90.0,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2018,
+    "value": 3.7,
+    "value_norm": 50.0,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2018,
+    "value": 11.6621,
+    "value_norm": 4.22,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2018,
+    "value": 24.2073,
+    "value_norm": 23.7,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2019,
+    "value": 5827463.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2019,
+    "value": 81.55,
+    "value_norm": 75.36,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2019,
+    "value": 5.05,
+    "value_norm": 65.83,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2019,
+    "value": 243412.0,
+    "value_norm": 64.47,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2019,
+    "value": 2368.8,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2019,
+    "value": 4040015.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2019,
+    "value": 85262.0,
+    "value_norm": 24.56,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2019,
+    "value": 2478122492.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2019,
+    "value": 63893994.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2019,
+    "value": 141637694.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2019,
+    "value": 945594.0,
+    "value_norm": 51.63,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2019,
+    "value": 253651.0,
+    "value_norm": 59.85,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2019,
+    "value": 107092.74,
+    "value_norm": 67.73,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2019,
+    "value": 21.4,
+    "value_norm": 46.0,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2019,
+    "value": 5.5,
+    "value_norm": 58.33,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2019,
+    "value": 34.01,
+    "value_norm": 63.37,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2019,
+    "value": 10.59,
+    "value_norm": 46.31,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2019,
+    "value": 29.55,
+    "value_norm": 54.5,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2019,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2019,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2019,
+    "value": 7.5,
+    "value_norm": 100.0,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2019,
+    "value": 3.7,
+    "value_norm": 50.0,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2019,
+    "value": 10.9643,
+    "value_norm": 12.95,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2019,
+    "value": 24.3052,
+    "value_norm": 23.09,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2020,
+    "value": 5837213.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2020,
+    "value": 81.52,
+    "value_norm": 75.14,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2020,
+    "value": 5.65,
+    "value_norm": 55.83,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2020,
+    "value": 254455.0,
+    "value_norm": 68.15,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2020,
+    "value": 2326.6,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2020,
+    "value": 4033670.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2020,
+    "value": 75261.0,
+    "value_norm": 41.23,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2020,
+    "value": 2237682408.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2020,
+    "value": 59522477.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2020,
+    "value": 139475606.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2020,
+    "value": 947277.0,
+    "value_norm": 51.01,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2020,
+    "value": 251983.0,
+    "value_norm": 59.16,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2020,
+    "value": 106808.44,
+    "value_norm": 67.02,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2020,
+    "value": 21.2,
+    "value_norm": 48.0,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2020,
+    "value": 4.82,
+    "value_norm": 69.67,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2020,
+    "value": 34.61,
+    "value_norm": 65.37,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2020,
+    "value": 9.42,
+    "value_norm": 57.25,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2020,
+    "value": 29.72,
+    "value_norm": 52.8,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2020,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2020,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2020,
+    "value": 7.5,
+    "value_norm": 100.0,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2020,
+    "value": 3.7,
+    "value_norm": 50.0,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2020,
+    "value": 10.1971,
+    "value_norm": 22.54,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2020,
+    "value": 23.8942,
+    "value_norm": 25.66,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2021,
+    "value": 5867412.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2021,
+    "value": 81.26,
+    "value_norm": 73.29,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2021,
+    "value": 5.1,
+    "value_norm": 65.0,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2021,
+    "value": 267357.0,
+    "value_norm": 72.45,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2021,
+    "value": 2477.8,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2021,
+    "value": 4050662.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2021,
+    "value": 83374.0,
+    "value_norm": 27.71,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2021,
+    "value": 2373490993.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2021,
+    "value": 64653034.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2021,
+    "value": 145719822.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2021,
+    "value": 964710.0,
+    "value_norm": 45.1,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2021,
+    "value": 278937.0,
+    "value_norm": 70.39,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2021,
+    "value": 109233.55,
+    "value_norm": 73.08,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2021,
+    "value": 21.0,
+    "value_norm": 50.0,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2021,
+    "value": 5.49,
+    "value_norm": 58.5,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2021,
+    "value": 35.36,
+    "value_norm": 67.87,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2021,
+    "value": 8.5,
+    "value_norm": 68.75,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2021,
+    "value": 30.28,
+    "value_norm": 48.6,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2021,
+    "value": 9.2,
+    "value_norm": 48.33,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2021,
+    "value": 5.8,
+    "value_norm": 57.5,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2021,
+    "value": 8.0,
+    "value_norm": 100.0,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2021,
+    "value": 3.7,
+    "value_norm": 50.0,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2021,
+    "value": 11.019,
+    "value_norm": 12.26,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2021,
+    "value": 24.8355,
+    "value_norm": 19.78,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2022,
+    "value": 5928364.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2022,
+    "value": 81.51,
+    "value_norm": 75.07,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2022,
+    "value": 4.475,
+    "value_norm": 75.42,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2022,
+    "value": 267335.0,
+    "value_norm": 72.44,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2022,
+    "value": 2488.8,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2022,
+    "value": 4093404.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2022,
+    "value": 79112.0,
+    "value_norm": 34.81,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2022,
+    "value": 2314447646.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2022,
+    "value": 62926780.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2022,
+    "value": 148932486.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2022,
+    "value": 958880.0,
+    "value_norm": 47.04,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2022,
+    "value": 303187.0,
+    "value_norm": 80.49,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2022,
+    "value": 109503.35,
+    "value_norm": 73.76,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2022,
+    "value": 20.9,
+    "value_norm": 51.67,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2022,
+    "value": 6.27,
+    "value_norm": 47.75,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2022,
+    "value": 36.32,
+    "value_norm": 71.07,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2022,
+    "value": 9.44,
+    "value_norm": 57.0,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2022,
+    "value": 29.96,
+    "value_norm": 50.4,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2022,
+    "value": 9.8,
+    "value_norm": 43.33,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2022,
+    "value": 5.8,
+    "value_norm": 57.5,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2022,
+    "value": 7.9,
+    "value_norm": 100.0,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2022,
+    "value": 3.7,
+    "value_norm": 50.0,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2022,
+    "value": 10.6145,
+    "value_norm": 17.32,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2022,
+    "value": 25.122,
+    "value_norm": 17.99,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2023,
+    "value": 5959464.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2023,
+    "value": 81.77,
+    "value_norm": 76.93,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2023,
+    "value": 5.125,
+    "value_norm": 64.58,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2023,
+    "value": 279600.0,
+    "value_norm": 76.53,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2023,
+    "value": 2516.9,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2023,
+    "value": 4116473.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2023,
+    "value": 74990.0,
+    "value_norm": 41.68,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2023,
+    "value": 2256125911.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2023,
+    "value": 57113117.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2023,
+    "value": 129947286.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2023,
+    "value": 998350.0,
+    "value_norm": 33.88,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2023,
+    "value": 291922.0,
+    "value_norm": 75.8,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2023,
+    "value": 109241.42,
+    "value_norm": 73.1,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2023,
+    "value": 20.9,
+    "value_norm": 51.67,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2023,
+    "value": 6.71,
+    "value_norm": 44.08,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2023,
+    "value": 37.12,
+    "value_norm": 73.73,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2023,
+    "value": 9.64,
+    "value_norm": 54.5,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2023,
+    "value": 30.61,
+    "value_norm": 46.95,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2023,
+    "value": 9.5,
+    "value_norm": 45.83,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2023,
+    "value": 5.6,
+    "value_norm": 52.5,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2023,
+    "value": 7.3,
+    "value_norm": 80.0,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2023,
+    "value": 3.6,
+    "value_norm": 33.33,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2023,
+    "value": 9.5836,
+    "value_norm": 30.2,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2023,
+    "value": 21.8052,
+    "value_norm": 38.72,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2024,
+    "value": 5989985.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2024,
+    "value": 82.08,
+    "value_norm": 79.14,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2024,
+    "value": 6.175,
+    "value_norm": 48.54,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2024,
+    "value": 287682.0,
+    "value_norm": 79.23,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2024,
+    "value": 2614.0,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2024,
+    "value": 4139094.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2024,
+    "value": 80398.0,
+    "value_norm": 32.67,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2024,
+    "value": 2321126337.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2024,
+    "value": 57995667.0,
+    "value_norm": 100.0,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2024,
+    "value": 143236662.0,
+    "value_norm": 100.0,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2024,
+    "value": 814960.0,
+    "value_norm": 100.0,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2024,
+    "value": 307223.0,
+    "value_norm": 82.18,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2024,
+    "value": 109471.34,
+    "value_norm": 73.68,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2024,
+    "value": 20.8,
+    "value_norm": 53.33,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2024,
+    "value": 6.51,
+    "value_norm": 45.75,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2024,
+    "value": 37.88,
+    "value_norm": 76.27,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2024,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2024,
+    "value": 30.43,
+    "value_norm": 47.85,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2024,
+    "value": 7.7,
+    "value_norm": 66.25,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2024,
+    "value": 5.6,
+    "value_norm": 52.5,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2024,
+    "value": 7.3,
+    "value_norm": 80.0,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2024,
+    "value": 3.6,
+    "value_norm": 33.33,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2024,
+    "value": 9.6821,
+    "value_norm": 28.97,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2024,
+    "value": 23.9127,
+    "value_norm": 25.55,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2025,
+    "value": 6019866.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2025,
+    "value": null,
+    "value_norm": null,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2025,
+    "value": 6.35,
+    "value_norm": 47.08,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2025,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2025,
+    "value": 2704.3,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2025,
+    "value": 4157750.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2025,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2025,
+    "value": 2405931819.0,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2025,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2025,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2025,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2025,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2025,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2025,
+    "value": 20.7,
+    "value_norm": 55.0,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2025,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2025,
+    "value": 38.57,
+    "value_norm": 78.57,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2025,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2025,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2025,
+    "value": 8.1,
+    "value_norm": 61.25,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2025,
+    "value": 5.7,
+    "value_norm": 55.0,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2025,
+    "value": 7.4,
+    "value_norm": 90.0,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2025,
+    "value": 3.6,
+    "value_norm": 33.33,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2025,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2025,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  },
+  {
+    "indicator": "population",
+    "year": 2026,
+    "value": 6031247.0,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "life_expectancy",
+    "year": 2026,
+    "value": null,
+    "value_norm": null,
+    "unit": "years"
+  },
+  {
+    "indicator": "unemployment",
+    "year": 2026,
+    "value": 7.3,
+    "value_norm": 39.17,
+    "unit": "percent"
+  },
+  {
+    "indicator": "income",
+    "year": 2026,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK"
+  },
+  {
+    "indicator": "gdp",
+    "year": 2026,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK billion"
+  },
+  {
+    "indicator": "education",
+    "year": 2026,
+    "value": null,
+    "value_norm": null,
+    "unit": "persons"
+  },
+  {
+    "indicator": "ghg",
+    "year": 2026,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 t CO2-eq"
+  },
+  {
+    "indicator": "energy",
+    "year": 2026,
+    "value": null,
+    "value_norm": null,
+    "unit": "GJ"
+  },
+  {
+    "indicator": "climate_footprint",
+    "year": 2026,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq"
+  },
+  {
+    "indicator": "material_flow",
+    "year": 2026,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes"
+  },
+  {
+    "indicator": "water_abstraction",
+    "year": 2026,
+    "value": null,
+    "value_norm": null,
+    "unit": "1000 m3"
+  },
+  {
+    "indicator": "green_gva",
+    "year": 2026,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK million"
+  },
+  {
+    "indicator": "folkeskole_funding",
+    "year": 2026,
+    "value": null,
+    "value_norm": null,
+    "unit": "DKK per pupil"
+  },
+  {
+    "indicator": "class_size",
+    "year": 2026,
+    "value": null,
+    "value_norm": null,
+    "unit": "pupils per class"
+  },
+  {
+    "indicator": "transition",
+    "year": 2026,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "education_share",
+    "year": 2026,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "neet",
+    "year": 2026,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "gini",
+    "year": 2026,
+    "value": null,
+    "value_norm": null,
+    "unit": "index (0-100)"
+  },
+  {
+    "indicator": "health",
+    "year": 2026,
+    "value": null,
+    "value_norm": null,
+    "unit": "percent"
+  },
+  {
+    "indicator": "social_trust",
+    "year": 2026,
+    "value": null,
+    "value_norm": null,
+    "unit": "score (0-10)"
+  },
+  {
+    "indicator": "learning_outcomes",
+    "year": 2026,
+    "value": null,
+    "value_norm": null,
+    "unit": "grade_points"
+  },
+  {
+    "indicator": "life_satisfaction",
+    "year": 2026,
+    "value": 3.6,
+    "value_norm": 33.33,
+    "unit": "score_1_5"
+  },
+  {
+    "indicator": "climate_footprint_pc",
+    "year": 2026,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes CO2-eq/person"
+  },
+  {
+    "indicator": "material_flow_pc",
+    "year": 2026,
+    "value": null,
+    "value_norm": null,
+    "unit": "tonnes/person"
+  }
+]

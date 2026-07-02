@@ -1,0 +1,667 @@
+[
+  {
+    "id": "population",
+    "label": "Population",
+    "unit": "persons",
+    "direction": "neutral",
+    "anchors": {
+      "bad": 4000000,
+      "mid": 5000000,
+      "good": 6500000
+    },
+    "source": "DST FOLK1A",
+    "granularity_raw": "quarterly_to_annual",
+    "year_min": 2008,
+    "year_max": 2026,
+    "coverage": 19,
+    "type": "time_series"
+  },
+  {
+    "id": "life_expectancy",
+    "label": "Life Expectancy at Birth",
+    "unit": "years",
+    "direction": "higher_better",
+    "anchors": {
+      "bad": 70,
+      "mid": 78,
+      "good": 85
+    },
+    "source": "DST HISB8",
+    "granularity_raw": "biennial_cohort",
+    "year_min": 1981,
+    "year_max": 2024,
+    "coverage": 44,
+    "type": "time_series"
+  },
+  {
+    "id": "unemployment",
+    "label": "Unemployment Rate (LFS)",
+    "unit": "percent",
+    "direction": "lower_better",
+    "anchors": {
+      "good": 3,
+      "mid": 6,
+      "bad": 12
+    },
+    "source": "DST AKU111K",
+    "granularity_raw": "quarterly_to_annual",
+    "year_min": 2008,
+    "year_max": 2026,
+    "coverage": 19,
+    "type": "time_series"
+  },
+  {
+    "id": "income",
+    "label": "Avg Disposable Income per Person",
+    "unit": "DKK",
+    "direction": "higher_better",
+    "anchors": {
+      "bad": 100000,
+      "mid": 200000,
+      "good": 350000
+    },
+    "source": "DST INDKP101",
+    "granularity_raw": "annual",
+    "year_min": 1987,
+    "year_max": 2024,
+    "coverage": 38,
+    "type": "time_series"
+  },
+  {
+    "id": "gdp",
+    "label": "Real GDP (chained values)",
+    "unit": "DKK billion",
+    "direction": "neutral",
+    "anchors": {
+      "bad": 1000,
+      "mid": 1800,
+      "good": 2800
+    },
+    "source": "DST NAN1",
+    "granularity_raw": "annual",
+    "year_min": 1966,
+    "year_max": 2025,
+    "coverage": 60,
+    "type": "time_series"
+  },
+  {
+    "id": "education",
+    "label": "Population 15-69 with Education Data",
+    "unit": "persons",
+    "direction": "neutral",
+    "anchors": {
+      "bad": 3000000,
+      "mid": 3800000,
+      "good": 4500000
+    },
+    "source": "DST HFUDD11",
+    "granularity_raw": "annual",
+    "year_min": 2008,
+    "year_max": 2025,
+    "coverage": 18,
+    "type": "time_series"
+  },
+  {
+    "id": "ghg",
+    "label": "GHG Emissions (excl. biomass CO2)",
+    "unit": "1000 t CO2-eq",
+    "direction": "lower_better",
+    "anchors": {
+      "good": 40000,
+      "mid": 70000,
+      "bad": 100000
+    },
+    "source": "DST DRIVHUS",
+    "granularity_raw": "annual",
+    "year_min": 1990,
+    "year_max": 2024,
+    "coverage": 35,
+    "type": "time_series"
+  },
+  {
+    "id": "energy",
+    "label": "Total Energy Supply",
+    "unit": "GJ",
+    "direction": "neutral",
+    "anchors": {
+      "bad": 3000000000,
+      "mid": 2500000000,
+      "good": 2000000000
+    },
+    "source": "DST ENE2HO",
+    "granularity_raw": "annual",
+    "year_min": 1966,
+    "year_max": 2025,
+    "coverage": 60,
+    "type": "time_series"
+  },
+  {
+    "id": "climate_footprint",
+    "label": "Climate Footprint (consumption-based)",
+    "unit": "tonnes CO2-eq",
+    "direction": "lower_better",
+    "anchors": {
+      "good": 23100000000,
+      "mid": 48000000000,
+      "good_label": "2030 target",
+      "bad": 77000000000
+    },
+    "source": "DST AFTRYK1 (experimental statistics)",
+    "granularity_raw": "annual",
+    "year_min": 1990,
+    "year_max": 2024,
+    "coverage": 35,
+    "type": "time_series"
+  },
+  {
+    "id": "material_flow",
+    "label": "Domestic Material Consumption (DMC)",
+    "unit": "tonnes",
+    "direction": "lower_better",
+    "anchors": {
+      "good": 78000000000,
+      "mid": 120000000000,
+      "bad": 168000000000
+    },
+    "source": "DST MRM2",
+    "granularity_raw": "annual",
+    "year_min": 1993,
+    "year_max": 2024,
+    "coverage": 32,
+    "type": "time_series"
+  },
+  {
+    "id": "water_abstraction",
+    "label": "Water Abstraction",
+    "unit": "1000 m3",
+    "direction": "lower_better",
+    "anchors": {
+      "good": 815000,
+      "mid": 950000,
+      "bad": 1100000
+    },
+    "source": "DST VANDRG1",
+    "granularity_raw": "annual",
+    "year_min": 2010,
+    "year_max": 2024,
+    "coverage": 15,
+    "type": "time_series"
+  },
+  {
+    "id": "green_gva",
+    "label": "Green Goods & Services Turnover",
+    "unit": "DKK million",
+    "direction": "higher_better",
+    "anchors": {
+      "bad": 150000,
+      "mid": 230000,
+      "good": 350000
+    },
+    "source": "DST GRON1",
+    "granularity_raw": "annual",
+    "year_min": 2012,
+    "year_max": 2024,
+    "coverage": 13,
+    "type": "time_series"
+  },
+  {
+    "id": "folkeskole_funding",
+    "label": "Folkeskole Funding per Pupil (real 2024 kr)",
+    "unit": "DKK per pupil",
+    "direction": "higher_better",
+    "anchors": {
+      "bad": 85000,
+      "mid": 100000,
+      "good": 120000
+    },
+    "source": "DST UOE1+UDDAKT20+NAHC1 (derived, see .tmp/fetch_folkeskole.py)",
+    "granularity_raw": "annual",
+    "year_min": 2016,
+    "year_max": 2024,
+    "coverage": 9,
+    "type": "time_series"
+  },
+  {
+    "id": "class_size",
+    "label": "Average Class Size (Folkeskole)",
+    "unit": "pupils per class",
+    "direction": "lower_better",
+    "anchors": {
+      "good": 18,
+      "mid": 21,
+      "bad": 26
+    },
+    "source": "DST KVOTIEN",
+    "granularity_raw": "annual",
+    "year_min": 2009,
+    "year_max": 2025,
+    "coverage": 17,
+    "type": "time_series"
+  },
+  {
+    "id": "transition",
+    "label": "Grundskole Leavers Not Started in Education (1yr)",
+    "unit": "percent",
+    "direction": "lower_better",
+    "anchors": {
+      "good": 3,
+      "mid": 6,
+      "bad": 12
+    },
+    "source": "DST FORLOB10",
+    "granularity_raw": "annual",
+    "year_min": 2006,
+    "year_max": 2024,
+    "coverage": 19,
+    "type": "time_series"
+  },
+  {
+    "id": "education_share",
+    "label": "Tertiary Education Attainment Share",
+    "unit": "percent",
+    "direction": "higher_better",
+    "anchors": {
+      "bad": 20,
+      "mid": 30,
+      "good": 45
+    },
+    "source": "DST HFUDD11 (re-queried by attainment level)",
+    "granularity_raw": "annual",
+    "year_min": 2008,
+    "year_max": 2025,
+    "coverage": 18,
+    "type": "time_series"
+  },
+  {
+    "id": "neet",
+    "label": "NEET Rate, 16-24 (DK trend)",
+    "unit": "percent",
+    "direction": "lower_better",
+    "anchors": {
+      "good": 6,
+      "mid": 10,
+      "bad": 18
+    },
+    "source": "DST NEET1",
+    "granularity_raw": "annual",
+    "year_min": 2008,
+    "year_max": 2023,
+    "coverage": 16,
+    "type": "time_series"
+  },
+  {
+    "id": "gini",
+    "label": "Gini Coefficient, Disposable Income (DK trend)",
+    "unit": "index (0-100)",
+    "direction": "lower_better",
+    "anchors": {
+      "good": 25,
+      "mid": 30,
+      "bad": 40
+    },
+    "source": "DST IFOR41",
+    "granularity_raw": "annual",
+    "year_min": 1987,
+    "year_max": 2024,
+    "coverage": 38,
+    "type": "time_series"
+  },
+  {
+    "id": "health",
+    "label": "Self-Rated Bad Health Share",
+    "unit": "percent",
+    "direction": "lower_better",
+    "anchors": {
+      "good": 5,
+      "mid": 9,
+      "bad": 15
+    },
+    "source": "DST SILC60",
+    "granularity_raw": "annual",
+    "year_min": 2021,
+    "year_max": 2025,
+    "coverage": 5,
+    "type": "time_series"
+  },
+  {
+    "id": "social_trust",
+    "label": "Trust in Strangers (avg score)",
+    "unit": "score (0-10)",
+    "direction": "higher_better",
+    "anchors": {
+      "bad": 3,
+      "mid": 5.5,
+      "good": 7.5
+    },
+    "source": "DST SILC52",
+    "granularity_raw": "annual",
+    "year_min": 2021,
+    "year_max": 2025,
+    "coverage": 5,
+    "type": "time_series"
+  },
+  {
+    "id": "learning_outcomes",
+    "label": "Grade Average, 9th Grade (7-trins-skala)",
+    "unit": "grade_points",
+    "direction": "higher_better",
+    "anchors": {
+      "bad": 6.5,
+      "mid": 7.0,
+      "good": 7.5
+    },
+    "source": "uddannelsesstatistik.dk (GS/KARA/KARAGNS)",
+    "granularity_raw": "annual",
+    "year_min": 2011,
+    "year_max": 2025,
+    "coverage": 15,
+    "type": "time_series"
+  },
+  {
+    "id": "life_satisfaction",
+    "label": "Student Wellbeing, General (mean 1-5)",
+    "unit": "score_1_5",
+    "direction": "higher_better",
+    "anchors": {
+      "bad": 3.4,
+      "mid": 3.7,
+      "good": 4.0
+    },
+    "source": "uddannelsesstatistik.dk (GS/TRIV/TRIVIND)",
+    "granularity_raw": "annual",
+    "year_min": 2015,
+    "year_max": 2026,
+    "coverage": 12,
+    "type": "time_series"
+  },
+  {
+    "id": "climate_footprint_pc",
+    "label": "Climate Footprint per Capita",
+    "unit": "tonnes CO2-eq/person",
+    "direction": "lower_better",
+    "anchors": {
+      "good": 4.0,
+      "mid": 8.0,
+      "bad": 12.0
+    },
+    "source": "DST AFTRYK1 ÷ FOLK1A (derived)",
+    "granularity_raw": "annual",
+    "year_min": 2008,
+    "year_max": 2024,
+    "coverage": 17,
+    "type": "time_series"
+  },
+  {
+    "id": "material_flow_pc",
+    "label": "Material Footprint per Capita (DMC)",
+    "unit": "tonnes/person",
+    "direction": "lower_better",
+    "anchors": {
+      "good": 13.0,
+      "mid": 20.0,
+      "bad": 28.0
+    },
+    "source": "DST MRM2 ÷ FOLK1A (derived)",
+    "granularity_raw": "annual",
+    "year_min": 2008,
+    "year_max": 2024,
+    "coverage": 17,
+    "type": "time_series"
+  },
+  {
+    "id": "bii",
+    "label": "Biodiversity Intactness Index",
+    "unit": "percent",
+    "direction": "higher_better",
+    "anchors": {
+      "bad": 70,
+      "mid": 85,
+      "good": 95
+    },
+    "source": "HLEG bii.json",
+    "year_min": 2016,
+    "year_max": 2016,
+    "coverage": 1,
+    "type": "benchmark_snapshot"
+  },
+  {
+    "id": "pm25",
+    "label": "PM2.5 Air Quality",
+    "unit": "µg/m³",
+    "direction": "lower_better",
+    "anchors": {
+      "good": 5,
+      "mid": 15,
+      "bad": 35
+    },
+    "source": "HLEG pm25.json",
+    "year_min": 2023,
+    "year_max": 2023,
+    "coverage": 1,
+    "type": "benchmark_snapshot"
+  },
+  {
+    "id": "produced_capital",
+    "label": "Produced Capital per Capita",
+    "unit": "USD",
+    "direction": "higher_better",
+    "anchors": {
+      "bad": 10000,
+      "mid": 50000,
+      "good": 120000
+    },
+    "source": "HLEG produced_capital.json",
+    "year_min": 2020,
+    "year_max": 2020,
+    "coverage": 1,
+    "type": "benchmark_snapshot"
+  },
+  {
+    "id": "hale",
+    "label": "Healthy Life Expectancy",
+    "unit": "years",
+    "direction": "higher_better",
+    "anchors": {
+      "bad": 50,
+      "mid": 65,
+      "good": 75
+    },
+    "source": "HLEG hale.json",
+    "year_min": 2021,
+    "year_max": 2021,
+    "coverage": 1,
+    "type": "benchmark_snapshot"
+  },
+  {
+    "id": "gender_pay_ratio",
+    "label": "Gender Pay Ratio",
+    "unit": "ratio (0-1)",
+    "direction": "higher_better",
+    "anchors": {
+      "bad": 0.7,
+      "mid": 0.85,
+      "good": 0.95
+    },
+    "source": "HLEG gender_pay_ratio.json",
+    "year_min": 2014,
+    "year_max": 2014,
+    "coverage": 1,
+    "type": "benchmark_snapshot"
+  },
+  {
+    "id": "household_income",
+    "label": "Household Income per Capita",
+    "unit": "USD",
+    "direction": "higher_better",
+    "anchors": {
+      "bad": 1000,
+      "mid": 12000,
+      "good": 80000
+    },
+    "source": "HLEG household_income.json",
+    "year_min": 2024,
+    "year_max": 2024,
+    "coverage": 1,
+    "type": "benchmark_snapshot"
+  },
+  {
+    "id": "hale_intl",
+    "label": "Healthy Life Expectancy (WHO)",
+    "unit": "years",
+    "direction": "higher_better",
+    "anchors": {
+      "bad": 50,
+      "mid": 65,
+      "good": 75
+    },
+    "source": "HLEG hale.json",
+    "year_min": 2021,
+    "year_max": 2021,
+    "coverage": 1,
+    "type": "benchmark_snapshot"
+  },
+  {
+    "id": "ghg_total_intl",
+    "label": "Total GHG (international, incl. LULUCF)",
+    "unit": "MtCO2e",
+    "direction": "lower_better",
+    "anchors": {
+      "good": 30,
+      "mid": 100,
+      "bad": 500
+    },
+    "source": "HLEG ghg_total.json",
+    "year_min": 2023,
+    "year_max": 2023,
+    "coverage": 1,
+    "type": "benchmark_snapshot"
+  },
+  {
+    "id": "co2_per_capita",
+    "label": "CO2 per Capita",
+    "unit": "tCO2/person",
+    "direction": "lower_better",
+    "anchors": {
+      "good": 2,
+      "mid": 6,
+      "bad": 15
+    },
+    "source": "HLEG co2.json",
+    "year_min": 2022,
+    "year_max": 2022,
+    "coverage": 1,
+    "type": "benchmark_snapshot"
+  },
+  {
+    "id": "homicide_rate",
+    "label": "Homicide Rate",
+    "unit": "per 100k",
+    "direction": "lower_better",
+    "anchors": {
+      "good": 3,
+      "mid": 6,
+      "bad": 10
+    },
+    "source": "HLEG homicide_rate.json",
+    "year_min": 2021,
+    "year_max": 2021,
+    "coverage": 1,
+    "type": "benchmark_snapshot"
+  },
+  {
+    "id": "drinking_water",
+    "label": "Safely Managed Drinking Water",
+    "unit": "percent",
+    "direction": "higher_better",
+    "anchors": {
+      "bad": 50,
+      "mid": 75,
+      "good": 95
+    },
+    "source": "HLEG drinking_water.json",
+    "year_min": 2024,
+    "year_max": 2024,
+    "coverage": 1,
+    "type": "benchmark_snapshot"
+  },
+  {
+    "id": "poverty_societal",
+    "label": "Societal Poverty Rate ($6.85/day)",
+    "unit": "percent",
+    "direction": "lower_better",
+    "anchors": {
+      "good": 5,
+      "mid": 15,
+      "bad": 35
+    },
+    "source": "HLEG poverty_societal.json",
+    "year_min": 2023,
+    "year_max": 2023,
+    "coverage": 1,
+    "type": "benchmark_snapshot"
+  },
+  {
+    "id": "ipv",
+    "label": "Intimate Partner Violence",
+    "unit": "percent women",
+    "direction": "lower_better",
+    "anchors": {
+      "good": 5,
+      "mid": 10,
+      "bad": 25
+    },
+    "source": "HLEG ipv.json",
+    "year_min": 2023,
+    "year_max": 2023,
+    "coverage": 1,
+    "type": "benchmark_snapshot"
+  },
+  {
+    "id": "lu4",
+    "label": "Labour Underutilization LU4",
+    "unit": "percent",
+    "direction": "lower_better",
+    "anchors": {
+      "good": 5,
+      "mid": 10,
+      "bad": 25
+    },
+    "source": "HLEG lu4.json",
+    "year_min": 2024,
+    "year_max": 2024,
+    "coverage": 1,
+    "type": "benchmark_snapshot"
+  },
+  {
+    "id": "lbw",
+    "label": "Low Birthweight",
+    "unit": "percent",
+    "direction": "lower_better",
+    "anchors": {
+      "good": 7,
+      "mid": 10,
+      "bad": 15
+    },
+    "source": "HLEG lbw.json",
+    "year_min": 2020,
+    "year_max": 2020,
+    "coverage": 1,
+    "type": "benchmark_snapshot"
+  },
+  {
+    "id": "poverty_rate",
+    "label": "Poverty Rate (national, tiered)",
+    "unit": "percent",
+    "direction": "lower_better",
+    "anchors": {
+      "good": 3,
+      "mid": 10,
+      "bad": 25
+    },
+    "source": "HLEG poverty_rate.json",
+    "year_min": 2023,
+    "year_max": 2023,
+    "coverage": 1,
+    "type": "benchmark_snapshot"
+  }
+]

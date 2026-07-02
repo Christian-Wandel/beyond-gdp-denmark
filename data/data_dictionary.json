@@ -1,0 +1,83 @@
+{
+  "_note": "Per-cascade-node data transparency entries: exact definition, real series source, and a link an economist can click to verify the number themselves. Consumed by the node drawer in js/cascade.js (openNodeDrawer). Series values are NOT re-fetched here — indicator_id points into the already-loaded data/unified/denmark_wide.json (see js/dashboard.js getTimeSeries). Benchmark-only nodes (no indicator_id) fall back to data/unified/benchmarks.json, fetched lazily on first drawer open.",
+  "folkeskole_funding": {
+    "definition": "Real (2024-kr) public grundskole (primary/lower-secondary school) spend per pupil.",
+    "indicator_id": "folkeskole_funding",
+    "source_name": "Danmarks Statistik, tables UOE1 + UDDAKT20 + NAHC1 (derived)",
+    "source_url": "https://www.statistikbanken.dk/UOE1",
+    "coverage": "2016-2024",
+    "caveat": "Derived: real 2024-kr public grundskole spend ÷ pupils, PL-deflated using NAHC1. This is the lever, not an outcome — shown here for reference, not simulated."
+  },
+  "learning_outcomes": {
+    "definition": "9th-grade bundne prøver (final exam) grade average, 7-trins-skala.",
+    "indicator_id": "learning_outcomes",
+    "source_name": "uddannelsesstatistik.dk (Børne- og Undervisningsministeriet), GS/KARA/KARAGNS",
+    "source_url": "https://uddannelsesstatistik.dk",
+    "coverage": "2011-2025",
+    "caveat": "NOT in Danmarks Statistik — confirmed absent after searching all 2,316 StatBank tables. Core learning-outcome data sits outside the national statistics apparatus; that gap is itself part of the argument."
+  },
+  "neet": {
+    "definition": "Share of 16-24-year-olds neither in education nor employment (NEET), Denmark.",
+    "indicator_id": "neet",
+    "source_name": "Danmarks Statistik, table NEET1",
+    "source_url": "https://www.statistikbanken.dk/NEET1",
+    "coverage": "2008-2023",
+    "caveat": null
+  },
+  "income": {
+    "definition": "Average disposable income per person, current kr.",
+    "indicator_id": "income",
+    "source_name": "Danmarks Statistik, table INDKP101",
+    "source_url": "https://www.statistikbanken.dk/INDKP101",
+    "coverage": "1987-2024",
+    "caveat": null
+  },
+  "unemployment": {
+    "definition": "Unemployment rate, Labour Force Survey (LFS) definition.",
+    "indicator_id": "unemployment",
+    "source_name": "Danmarks Statistik, table AKU111K",
+    "source_url": "https://www.statistikbanken.dk/AKU111K",
+    "coverage": "quarterly, collapsed to annual mean",
+    "caveat": "Annual value is the mean of available quarters, not a Q4 snapshot."
+  },
+  "gini": {
+    "definition": "Gini coefficient, equivalised disposable income.",
+    "indicator_id": "gini",
+    "source_name": "Danmarks Statistik, table IFOR41",
+    "source_url": "https://www.statistikbanken.dk/IFOR41",
+    "coverage": "1987-2024",
+    "caveat": null
+  },
+  "life_satisfaction": {
+    "definition": "Grundskole pupil general wellbeing (\"generel trivsel\"), mean score 1-5, from the national trivselsmåling.",
+    "indicator_id": "life_satisfaction",
+    "source_name": "uddannelsesstatistik.dk (Børne- og Undervisningsministeriet), GS/TRIV/TRIVIND",
+    "source_url": "https://uddannelsesstatistik.dk",
+    "coverage": "2015-2026",
+    "caveat": "PROXY: measures grundskole-pupil wellbeing specifically, NOT a whole-population Cantril ladder. Units and population differ from the general-population life-satisfaction concept used elsewhere in the dashboard."
+  },
+  "life_expectancy": {
+    "definition": "Life expectancy at birth, average of sexes.",
+    "indicator_id": "life_expectancy",
+    "source_name": "Danmarks Statistik, table HISB8",
+    "source_url": "https://www.statistikbanken.dk/HISB8",
+    "coverage": "1981-2024 (biennial cohorts, collapsed to first year)",
+    "caveat": null
+  },
+  "hale": {
+    "definition": "Healthy life expectancy (HALE) — years lived in full health.",
+    "indicator_id": null,
+    "source_name": "UN HLEG Tier I benchmark",
+    "source_url": "https://www.who.int/data/gho",
+    "coverage": "single point (see benchmark year)",
+    "caveat": "No Danish time series exists in this project yet — single-point HLEG benchmark only. This gap is itself part of the argument: core health data alongside GDP is thinner than the money data."
+  },
+  "poverty_rate": {
+    "definition": "National poverty rate (tiered definition).",
+    "indicator_id": null,
+    "source_name": "UN HLEG Tier I benchmark",
+    "source_url": null,
+    "coverage": "single point (see benchmark year)",
+    "caveat": "No Danish time series exists in this project yet — single-point HLEG benchmark only."
+  }
+}

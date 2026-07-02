@@ -1,0 +1,607 @@
+{
+  "transport_full_ev": {
+    "label": "Road transport: 100% electric vehicles",
+    "description": "Replace all petrol + diesel used by households (private cars) and construction/public sector fleets with electricity. DST classification note: private car fuel sits under 'households' (EHUSHOLD), not the transport sector (VH = commercial shipping/aviation/rail). Aviation jet_fuel excluded.",
+    "year": "2024",
+    "baseline_tco2e": 55182130.0,
+    "counterfactual_tco2e": 51728920.0,
+    "delta_tco2e": -3453210.0,
+    "delta_pct": -6.3,
+    "by_sector": {
+      "total": {
+        "baseline_tco2e": 21890758.9,
+        "counterfactual_tco2e": 21890758.9,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "households": {
+        "baseline_tco2e": 7639059.9,
+        "counterfactual_tco2e": 4859883.7,
+        "delta_tco2e": -2779176.2,
+        "swaps": [
+          {
+            "from": "petrol",
+            "to": "electricity",
+            "fraction": 1.0,
+            "gj_swapped": 43292351.0,
+            "delta_tco2e": -2000106.6
+          },
+          {
+            "from": "diesel",
+            "to": "electricity",
+            "fraction": 0.7,
+            "gj_swapped": 15186541.0,
+            "delta_tco2e": -779069.6
+          }
+        ]
+      },
+      "all_industry": {
+        "baseline_tco2e": 14251699.1,
+        "counterfactual_tco2e": 14251699.1,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "agriculture": {
+        "baseline_tco2e": 1618840.1,
+        "counterfactual_tco2e": 1618840.1,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "transport": {
+        "baseline_tco2e": 3975897.9,
+        "counterfactual_tco2e": 3975897.9,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "energy_supply": {
+        "baseline_tco2e": 337284.4,
+        "counterfactual_tco2e": 337284.4,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "manufacturing": {
+        "baseline_tco2e": 2780974.1,
+        "counterfactual_tco2e": 2780974.1,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "construction": {
+        "baseline_tco2e": 1765513.2,
+        "counterfactual_tco2e": 1294352.4,
+        "delta_tco2e": -471160.8,
+        "swaps": [
+          {
+            "from": "diesel",
+            "to": "electricity",
+            "fraction": 0.6,
+            "gj_swapped": 9184421.0,
+            "delta_tco2e": -471160.8
+          }
+        ]
+      },
+      "public": {
+        "baseline_tco2e": 922102.6,
+        "counterfactual_tco2e": 719229.5,
+        "delta_tco2e": -202873.1,
+        "swaps": [
+          {
+            "from": "petrol",
+            "to": "electricity",
+            "fraction": 1.0,
+            "gj_swapped": 1163712.0,
+            "delta_tco2e": -53763.5
+          },
+          {
+            "from": "diesel",
+            "to": "electricity",
+            "fraction": 0.8,
+            "gj_swapped": 2906619.0,
+            "delta_tco2e": -149109.6
+          }
+        ]
+      }
+    }
+  },
+  "transport_ev_2030": {
+    "label": "Road transport: 30% EV penetration (Klimaloven 2030 target)",
+    "description": "30% of private car petrol and 15% of household diesel replaced by electricity. Danish government 2030 EV-share target. Targets households sector where private car fuel is classified.",
+    "year": "2024",
+    "baseline_tco2e": 55182130.0,
+    "counterfactual_tco2e": 54415155.0,
+    "delta_tco2e": -766976.0,
+    "delta_pct": -1.4,
+    "by_sector": {
+      "total": {
+        "baseline_tco2e": 21890758.9,
+        "counterfactual_tco2e": 21890758.9,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "households": {
+        "baseline_tco2e": 7639059.9,
+        "counterfactual_tco2e": 6872084.4,
+        "delta_tco2e": -766975.5,
+        "swaps": [
+          {
+            "from": "petrol",
+            "to": "electricity",
+            "fraction": 0.3,
+            "gj_swapped": 12987705.0,
+            "delta_tco2e": -600032.0
+          },
+          {
+            "from": "diesel",
+            "to": "electricity",
+            "fraction": 0.15,
+            "gj_swapped": 3254259.0,
+            "delta_tco2e": -166943.5
+          }
+        ]
+      },
+      "all_industry": {
+        "baseline_tco2e": 14251699.1,
+        "counterfactual_tco2e": 14251699.1,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "agriculture": {
+        "baseline_tco2e": 1618840.1,
+        "counterfactual_tco2e": 1618840.1,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "transport": {
+        "baseline_tco2e": 3975897.9,
+        "counterfactual_tco2e": 3975897.9,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "energy_supply": {
+        "baseline_tco2e": 337284.4,
+        "counterfactual_tco2e": 337284.4,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "manufacturing": {
+        "baseline_tco2e": 2780974.1,
+        "counterfactual_tco2e": 2780974.1,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "construction": {
+        "baseline_tco2e": 1765513.2,
+        "counterfactual_tco2e": 1765513.2,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "public": {
+        "baseline_tco2e": 922102.6,
+        "counterfactual_tco2e": 922102.6,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      }
+    }
+  },
+  "households_heat_pumps": {
+    "label": "Households: replace all gas boilers + heating oil with heat pumps",
+    "description": "Full substitution of natural_gas and heating_oil in households with heat pumps. Models 1M heat pump target.",
+    "year": "2024",
+    "baseline_tco2e": 55182130.0,
+    "counterfactual_tco2e": 54252592.0,
+    "delta_tco2e": -929538.0,
+    "delta_pct": -1.7,
+    "by_sector": {
+      "total": {
+        "baseline_tco2e": 21890758.9,
+        "counterfactual_tco2e": 21890758.9,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "households": {
+        "baseline_tco2e": 7639059.9,
+        "counterfactual_tco2e": 6709521.7,
+        "delta_tco2e": -929538.2,
+        "swaps": [
+          {
+            "from": "natural_gas",
+            "to": "heat_pumps",
+            "fraction": 1.0,
+            "gj_swapped": 10873849.0,
+            "delta_tco2e": -614372.5
+          },
+          {
+            "from": "heating_oil",
+            "to": "heat_pumps",
+            "fraction": 1.0,
+            "gj_swapped": 4287969.0,
+            "delta_tco2e": -315165.7
+          }
+        ]
+      },
+      "all_industry": {
+        "baseline_tco2e": 14251699.1,
+        "counterfactual_tco2e": 14251699.1,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "agriculture": {
+        "baseline_tco2e": 1618840.1,
+        "counterfactual_tco2e": 1618840.1,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "transport": {
+        "baseline_tco2e": 3975897.9,
+        "counterfactual_tco2e": 3975897.9,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "energy_supply": {
+        "baseline_tco2e": 337284.4,
+        "counterfactual_tco2e": 337284.4,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "manufacturing": {
+        "baseline_tco2e": 2780974.1,
+        "counterfactual_tco2e": 2780974.1,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "construction": {
+        "baseline_tco2e": 1765513.2,
+        "counterfactual_tco2e": 1765513.2,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "public": {
+        "baseline_tco2e": 922102.6,
+        "counterfactual_tco2e": 922102.6,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      }
+    }
+  },
+  "households_heat_partial": {
+    "label": "Households: 50% fossil heating replaced with heat pumps",
+    "description": "Partial heat pump penetration — midpoint between current state and full transition.",
+    "year": "2024",
+    "baseline_tco2e": 55182130.0,
+    "counterfactual_tco2e": 54717361.0,
+    "delta_tco2e": -464769.0,
+    "delta_pct": -0.8,
+    "by_sector": {
+      "total": {
+        "baseline_tco2e": 21890758.9,
+        "counterfactual_tco2e": 21890758.9,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "households": {
+        "baseline_tco2e": 7639059.9,
+        "counterfactual_tco2e": 7174290.8,
+        "delta_tco2e": -464769.1,
+        "swaps": [
+          {
+            "from": "natural_gas",
+            "to": "heat_pumps",
+            "fraction": 0.5,
+            "gj_swapped": 5436924.0,
+            "delta_tco2e": -307186.2
+          },
+          {
+            "from": "heating_oil",
+            "to": "heat_pumps",
+            "fraction": 0.5,
+            "gj_swapped": 2143984.0,
+            "delta_tco2e": -157582.9
+          }
+        ]
+      },
+      "all_industry": {
+        "baseline_tco2e": 14251699.1,
+        "counterfactual_tco2e": 14251699.1,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "agriculture": {
+        "baseline_tco2e": 1618840.1,
+        "counterfactual_tco2e": 1618840.1,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "transport": {
+        "baseline_tco2e": 3975897.9,
+        "counterfactual_tco2e": 3975897.9,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "energy_supply": {
+        "baseline_tco2e": 337284.4,
+        "counterfactual_tco2e": 337284.4,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "manufacturing": {
+        "baseline_tco2e": 2780974.1,
+        "counterfactual_tco2e": 2780974.1,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "construction": {
+        "baseline_tco2e": 1765513.2,
+        "counterfactual_tco2e": 1765513.2,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "public": {
+        "baseline_tco2e": 922102.6,
+        "counterfactual_tco2e": 922102.6,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      }
+    }
+  },
+  "industry_coal_to_biomass": {
+    "label": "Industry: replace coal + coke with biomass (wood chips)",
+    "description": "Full coal phase-out in manufacturing, replaced with wood chips. Models Danish coal phase-out policy (2028 hard coal ban in power/heat).",
+    "year": "2024",
+    "baseline_tco2e": 55182130.0,
+    "counterfactual_tco2e": 55033146.0,
+    "delta_tco2e": -148984.0,
+    "delta_pct": -0.3,
+    "by_sector": {
+      "total": {
+        "baseline_tco2e": 21890758.9,
+        "counterfactual_tco2e": 21890758.9,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "households": {
+        "baseline_tco2e": 7639059.9,
+        "counterfactual_tco2e": 7639059.9,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "all_industry": {
+        "baseline_tco2e": 14251699.1,
+        "counterfactual_tco2e": 14251699.1,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "agriculture": {
+        "baseline_tco2e": 1618840.1,
+        "counterfactual_tco2e": 1618840.1,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "transport": {
+        "baseline_tco2e": 3975897.9,
+        "counterfactual_tco2e": 3975897.9,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "energy_supply": {
+        "baseline_tco2e": 337284.4,
+        "counterfactual_tco2e": 337284.4,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "manufacturing": {
+        "baseline_tco2e": 2780974.1,
+        "counterfactual_tco2e": 2631990.2,
+        "delta_tco2e": -148983.9,
+        "swaps": [
+          {
+            "from": "coal",
+            "to": "wood_chips",
+            "fraction": 1.0,
+            "gj_swapped": 1439775.0,
+            "delta_tco2e": -136058.7
+          },
+          {
+            "from": "coke",
+            "to": "wood_chips",
+            "fraction": 0.5,
+            "gj_swapped": 120011.0,
+            "delta_tco2e": -12925.2
+          }
+        ]
+      },
+      "construction": {
+        "baseline_tco2e": 1765513.2,
+        "counterfactual_tco2e": 1765513.2,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "public": {
+        "baseline_tco2e": 922102.6,
+        "counterfactual_tco2e": 922102.6,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      }
+    }
+  },
+  "agriculture_fossil_heating": {
+    "label": "Agriculture: replace heating oil with heat pumps + solar thermal",
+    "description": "Greenhouses and farm buildings switch from heating_oil to heat_pumps (60%) + solar_thermal (40%).",
+    "year": "2024",
+    "baseline_tco2e": 55182130.0,
+    "counterfactual_tco2e": 54042596.0,
+    "delta_tco2e": -1139534.0,
+    "delta_pct": -2.1,
+    "by_sector": {
+      "total": {
+        "baseline_tco2e": 21890758.9,
+        "counterfactual_tco2e": 21890758.9,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "households": {
+        "baseline_tco2e": 7639059.9,
+        "counterfactual_tco2e": 7639059.9,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "all_industry": {
+        "baseline_tco2e": 14251699.1,
+        "counterfactual_tco2e": 14251699.1,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "agriculture": {
+        "baseline_tco2e": 1618840.1,
+        "counterfactual_tco2e": 479305.9,
+        "delta_tco2e": -1139534.2,
+        "swaps": [
+          {
+            "from": "heating_oil",
+            "to": "heat_pumps",
+            "fraction": 0.6,
+            "gj_swapped": 9302320.0,
+            "delta_tco2e": -683720.5
+          },
+          {
+            "from": "heating_oil",
+            "to": "solar_thermal",
+            "fraction": 0.4,
+            "gj_swapped": 6201546.0,
+            "delta_tco2e": -455813.7
+          }
+        ]
+      },
+      "transport": {
+        "baseline_tco2e": 3975897.9,
+        "counterfactual_tco2e": 3975897.9,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "energy_supply": {
+        "baseline_tco2e": 337284.4,
+        "counterfactual_tco2e": 337284.4,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "manufacturing": {
+        "baseline_tco2e": 2780974.1,
+        "counterfactual_tco2e": 2780974.1,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "construction": {
+        "baseline_tco2e": 1765513.2,
+        "counterfactual_tco2e": 1765513.2,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "public": {
+        "baseline_tco2e": 922102.6,
+        "counterfactual_tco2e": 922102.6,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      }
+    }
+  },
+  "klimaloven_2030_combined": {
+    "label": "Klimaloven 2030: combined transport + heating transition",
+    "description": "30% EV (transport) + 50% heat pump (households) + coal phase-out (industry). Approximate combined impact of flagship 2030 policies.",
+    "year": "2024",
+    "baseline_tco2e": 55182130.0,
+    "counterfactual_tco2e": 53814327.0,
+    "delta_tco2e": -1367803.0,
+    "delta_pct": -2.5,
+    "by_sector": {
+      "total": {
+        "baseline_tco2e": 21890758.9,
+        "counterfactual_tco2e": 21890758.9,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "households": {
+        "baseline_tco2e": 7639059.9,
+        "counterfactual_tco2e": 6407315.3,
+        "delta_tco2e": -1231744.6,
+        "swaps": [
+          {
+            "from": "petrol",
+            "to": "electricity",
+            "fraction": 0.3,
+            "gj_swapped": 12987705.0,
+            "delta_tco2e": -600032.0
+          },
+          {
+            "from": "diesel",
+            "to": "electricity",
+            "fraction": 0.15,
+            "gj_swapped": 3254259.0,
+            "delta_tco2e": -166943.5
+          },
+          {
+            "from": "natural_gas",
+            "to": "heat_pumps",
+            "fraction": 0.5,
+            "gj_swapped": 5436924.0,
+            "delta_tco2e": -307186.2
+          },
+          {
+            "from": "heating_oil",
+            "to": "heat_pumps",
+            "fraction": 0.5,
+            "gj_swapped": 2143984.0,
+            "delta_tco2e": -157582.9
+          }
+        ]
+      },
+      "all_industry": {
+        "baseline_tco2e": 14251699.1,
+        "counterfactual_tco2e": 14251699.1,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "agriculture": {
+        "baseline_tco2e": 1618840.1,
+        "counterfactual_tco2e": 1618840.1,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "transport": {
+        "baseline_tco2e": 3975897.9,
+        "counterfactual_tco2e": 3975897.9,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "energy_supply": {
+        "baseline_tco2e": 337284.4,
+        "counterfactual_tco2e": 337284.4,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "manufacturing": {
+        "baseline_tco2e": 2780974.1,
+        "counterfactual_tco2e": 2644915.4,
+        "delta_tco2e": -136058.7,
+        "swaps": [
+          {
+            "from": "coal",
+            "to": "wood_chips",
+            "fraction": 1.0,
+            "gj_swapped": 1439775.0,
+            "delta_tco2e": -136058.7
+          }
+        ]
+      },
+      "construction": {
+        "baseline_tco2e": 1765513.2,
+        "counterfactual_tco2e": 1765513.2,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      },
+      "public": {
+        "baseline_tco2e": 922102.6,
+        "counterfactual_tco2e": 922102.6,
+        "delta_tco2e": 0.0,
+        "swaps": []
+      }
+    }
+  }
+}

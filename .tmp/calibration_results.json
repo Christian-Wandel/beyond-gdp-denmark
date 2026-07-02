@@ -1,0 +1,17 @@
+{
+  "folkeskole_funding->neet": {
+    "lag": 4,
+    "r": 0.4524,
+    "n": 4
+  },
+  "neet->income": {
+    "lag": 12,
+    "r": 0.2485,
+    "n": 5
+  },
+  "income->life_expectancy": {
+    "lag": 5,
+    "r": 0.9886,
+    "n": 33
+  }
+}

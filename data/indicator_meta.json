@@ -1,0 +1,514 @@
+{
+  "_note": "Anchors are seeded from sensible Danish/EU ranges and HLEG thresholds. Review and tighten when IPCC/theory arrives.",
+  "indicators": {
+    "population": {
+      "label": "Population",
+      "unit": "persons",
+      "direction": "neutral",
+      "anchors": {
+        "bad": 4000000,
+        "mid": 5000000,
+        "good": 6500000
+      },
+      "source": "DST FOLK1A",
+      "granularity": "quarterly_to_annual",
+      "collapse": "year_end"
+    },
+    "life_expectancy": {
+      "label": "Life Expectancy at Birth",
+      "unit": "years",
+      "direction": "higher_better",
+      "anchors": {
+        "bad": 70,
+        "mid": 78,
+        "good": 85
+      },
+      "source": "DST HISB8",
+      "granularity": "biennial_cohort",
+      "collapse": "first_year"
+    },
+    "unemployment": {
+      "label": "Unemployment Rate (LFS)",
+      "unit": "percent",
+      "direction": "lower_better",
+      "anchors": {
+        "good": 3,
+        "mid": 6,
+        "bad": 12
+      },
+      "source": "DST AKU111K",
+      "granularity": "quarterly_to_annual",
+      "collapse": "mean"
+    },
+    "income": {
+      "label": "Avg Disposable Income per Person",
+      "unit": "DKK",
+      "direction": "higher_better",
+      "anchors": {
+        "bad": 100000,
+        "mid": 200000,
+        "good": 350000
+      },
+      "source": "DST INDKP101",
+      "granularity": "annual",
+      "collapse": null
+    },
+    "gdp": {
+      "label": "Real GDP (chained values)",
+      "unit": "DKK billion",
+      "direction": "neutral",
+      "anchors": {
+        "bad": 1000,
+        "mid": 1800,
+        "good": 2800
+      },
+      "source": "DST NAN1",
+      "granularity": "annual",
+      "collapse": null,
+      "_note": "2020 chained prices (real, inflation-adjusted). Context indicator for the alongside-GDP thesis — not scored red/green, shown as neutral reference alongside the education cascade."
+    },
+    "education": {
+      "label": "Population 15-69 with Education Data",
+      "unit": "persons",
+      "direction": "neutral",
+      "anchors": {
+        "bad": 3000000,
+        "mid": 3800000,
+        "good": 4500000
+      },
+      "source": "DST HFUDD11",
+      "granularity": "annual",
+      "collapse": null,
+      "_note": "Currently total population count; refine to attainment-level share in sprint 3"
+    },
+    "ghg": {
+      "label": "GHG Emissions (excl. biomass CO2)",
+      "unit": "1000 t CO2-eq",
+      "direction": "lower_better",
+      "anchors": {
+        "good": 40000,
+        "mid": 70000,
+        "bad": 100000
+      },
+      "source": "DST DRIVHUS",
+      "granularity": "annual",
+      "collapse": null
+    },
+    "energy": {
+      "label": "Total Energy Supply",
+      "unit": "GJ",
+      "direction": "neutral",
+      "anchors": {
+        "bad": 3000000000,
+        "mid": 2500000000,
+        "good": 2000000000
+      },
+      "source": "DST ENE2HO",
+      "granularity": "annual",
+      "collapse": null,
+      "_note": "Lower is better only if from efficiency gains; refine to renewable share in sprint 3"
+    },
+    "climate_footprint": {
+      "label": "Climate Footprint (consumption-based)",
+      "unit": "tonnes CO2-eq",
+      "direction": "lower_better",
+      "anchors": {
+        "good": 23100000000,
+        "mid": 48000000000,
+        "good_label": "2030 target",
+        "bad": 77000000000
+      },
+      "source": "DST AFTRYK1 (experimental statistics)",
+      "granularity": "annual",
+      "collapse": null,
+      "_note": "Consumption-based (includes offshored emissions). Anchors: bad=1990 baseline (77 Mt), mid=halfway, good=2030 Climate Act target (70% cut from 1990 = 23.1 Mt). Cite: Klimaloven 2020."
+    },
+    "climate_footprint_pc": {
+      "label": "Climate Footprint per Capita",
+      "unit": "tonnes CO2-eq/person",
+      "direction": "lower_better",
+      "anchors": {
+        "good": 4.0,
+        "mid": 8.0,
+        "bad": 12.0
+      },
+      "source": "DST AFTRYK1 ÷ FOLK1A (derived)",
+      "granularity": "annual",
+      "collapse": null,
+      "_note": "Derived: climate_footprint ÷ population (year-end). bad=1990-level (~12 t), mid=halfway (~8 t), good=2030 Climate Act target expressed per capita (~4 t). Cite: Klimaloven 2020 (70% cut from 1990 baseline)."
+    },
+    "material_flow": {
+      "label": "Domestic Material Consumption (DMC)",
+      "unit": "tonnes",
+      "direction": "lower_better",
+      "anchors": {
+        "good": 78000000000,
+        "mid": 120000000000,
+        "bad": 168000000000
+      },
+      "source": "DST MRM2",
+      "granularity": "annual",
+      "collapse": null,
+      "_note": "Total national material consumption. Anchors scaled to approx per-capita × 6M population. See material_flow_pc for per-capita version."
+    },
+    "material_flow_pc": {
+      "label": "Material Footprint per Capita (DMC)",
+      "unit": "tonnes/person",
+      "direction": "lower_better",
+      "anchors": {
+        "good": 13.0,
+        "mid": 20.0,
+        "bad": 28.0
+      },
+      "source": "DST MRM2 ÷ FOLK1A (derived)",
+      "granularity": "annual",
+      "collapse": null,
+      "_note": "Derived: material_flow ÷ population. bad=historical peak (~28 t), mid=current level (~20-24 t), good=EU Circular Economy Action Plan target (50% resource productivity improvement vs 2014, implying ~13 t). Cite: EU CEAP 2020."
+    },
+    "water_abstraction": {
+      "label": "Water Abstraction",
+      "unit": "1000 m3",
+      "direction": "lower_better",
+      "anchors": {
+        "good": 815000,
+        "mid": 950000,
+        "bad": 1100000
+      },
+      "source": "DST VANDRG1",
+      "granularity": "annual",
+      "collapse": null,
+      "_note": "No explicit Danish water abstraction policy target found. Anchors are trend-based: bad=historical peak (2018: ~1,106 Mm3), mid=typical recent level (~950 Mm3), good=2024 low (~815 Mm3). Flag as gap — no official sustainability threshold. Source note: GEUS Jupiter + EPA PULS databases."
+    },
+    "green_gva": {
+      "label": "Green Goods & Services Turnover",
+      "unit": "DKK million",
+      "direction": "higher_better",
+      "anchors": {
+        "bad": 150000,
+        "mid": 230000,
+        "good": 350000
+      },
+      "source": "DST GRON1",
+      "granularity": "annual",
+      "collapse": null,
+      "_note": "Turnover of environmental goods/services sector. Direction-of-travel indicator (not a hard boundary). bad=below 2012 starting level, mid=2017 midpoint, good=ambitious target above 2024. Cite: DST Environmental Economic Accounts."
+    },
+    "folkeskole_funding": {
+      "label": "Folkeskole Funding per Pupil (real 2024 kr)",
+      "unit": "DKK per pupil",
+      "direction": "higher_better",
+      "anchors": {
+        "bad": 85000,
+        "mid": 100000,
+        "good": 120000
+      },
+      "source": "DST UOE1+UDDAKT20+NAHC1 (derived, see .tmp/fetch_folkeskole.py)",
+      "granularity": "annual",
+      "collapse": null,
+      "_note": "Real (2024-kr) public grundskole spend per pupil. LEVER node, 2016-2024 only."
+    },
+    "class_size": {
+      "label": "Average Class Size (Folkeskole)",
+      "unit": "pupils per class",
+      "direction": "lower_better",
+      "anchors": {
+        "good": 18,
+        "mid": 21,
+        "bad": 26
+      },
+      "source": "DST KVOTIEN",
+      "granularity": "annual",
+      "collapse": null
+    },
+    "transition": {
+      "label": "Grundskole Leavers Not Started in Education (1yr)",
+      "unit": "percent",
+      "direction": "lower_better",
+      "anchors": {
+        "good": 3,
+        "mid": 6,
+        "bad": 12
+      },
+      "source": "DST FORLOB10",
+      "granularity": "annual",
+      "collapse": null
+    },
+    "education_share": {
+      "label": "Tertiary Education Attainment Share",
+      "unit": "percent",
+      "direction": "higher_better",
+      "anchors": {
+        "bad": 20,
+        "mid": 30,
+        "good": 45
+      },
+      "source": "DST HFUDD11 (re-queried by attainment level)",
+      "granularity": "annual",
+      "collapse": null,
+      "_note": "Tertiary share of population 15-69. Distinct from 'education' (raw HFUDD11 total headcount, left unchanged)."
+    },
+    "neet": {
+      "label": "NEET Rate, 16-24 (DK trend)",
+      "unit": "percent",
+      "direction": "lower_better",
+      "anchors": {
+        "good": 6,
+        "mid": 10,
+        "bad": 18
+      },
+      "source": "DST NEET1",
+      "granularity": "annual",
+      "collapse": null,
+      "_note": "Moved from benchmark_indicators (single-point HLEG) to a real DK time series, 2008-2023, 2026-07-01."
+    },
+    "gini": {
+      "label": "Gini Coefficient, Disposable Income (DK trend)",
+      "unit": "index (0-100)",
+      "direction": "lower_better",
+      "anchors": {
+        "good": 25,
+        "mid": 30,
+        "bad": 40
+      },
+      "source": "DST IFOR41",
+      "granularity": "annual",
+      "collapse": null,
+      "_note": "Moved from benchmark_indicators (single-point HLEG) to a real DK time series, 1987-2024, 2026-07-01."
+    },
+    "health": {
+      "label": "Self-Rated Bad Health Share",
+      "unit": "percent",
+      "direction": "lower_better",
+      "anchors": {
+        "good": 5,
+        "mid": 9,
+        "bad": 15
+      },
+      "source": "DST SILC60",
+      "granularity": "annual",
+      "collapse": null,
+      "_note": "PARTIAL proxy for hale — 5 points only (2021-2025), EU-SILC ad-hoc module. hale stays on its HLEG benchmark."
+    },
+    "social_trust": {
+      "label": "Trust in Strangers (avg score)",
+      "unit": "score (0-10)",
+      "direction": "higher_better",
+      "anchors": {
+        "bad": 3,
+        "mid": 5.5,
+        "good": 7.5
+      },
+      "source": "DST SILC52",
+      "granularity": "annual",
+      "collapse": null,
+      "_note": "5 points only (2021-2025), EU-SILC ad-hoc module. Corrects prior 'confirmed absent' claim for social trust."
+    },
+    "learning_outcomes": {
+      "label": "Grade Average, 9th Grade (7-trins-skala)",
+      "unit": "grade_points",
+      "direction": "higher_better",
+      "anchors": {
+        "bad": 6.5,
+        "mid": 7.0,
+        "good": 7.5
+      },
+      "source": "uddannelsesstatistik.dk (GS/KARA/KARAGNS)",
+      "granularity": "annual",
+      "collapse": null,
+      "_note": "Promoted from benchmark_indicators (single-point HLEG HCI) to a real DK time series 2011-2025, 2026-07-01. Bundne-prøver average, 9th grade. Source is uddannelsesstatistik.dk (Børne- og Undervisningsministeriet), NOT Danmarks Statistik — grade data is confirmed absent from DST."
+    },
+    "life_satisfaction": {
+      "label": "Student Wellbeing, General (mean 1-5)",
+      "unit": "score_1_5",
+      "direction": "higher_better",
+      "anchors": {
+        "bad": 3.4,
+        "mid": 3.7,
+        "good": 4.0
+      },
+      "source": "uddannelsesstatistik.dk (GS/TRIV/TRIVIND)",
+      "granularity": "annual",
+      "collapse": null,
+      "_note": "Promoted from benchmark_indicators (single-point Cantril ladder 0-10) to a real DK time series 2015-2026, 2026-07-01. 'Generel trivsel' mean score (1-5) from the national trivselsmaaling. A grundskole-pupil proxy for the life_satisfaction cascade node, NOT a whole-population Cantril ladder — units and population differ from the old HLEG benchmark, flag when interpreting."
+    }
+  },
+  "benchmark_indicators": {
+    "bii": {
+      "label": "Biodiversity Intactness Index",
+      "unit": "percent",
+      "direction": "higher_better",
+      "anchors": {
+        "bad": 70,
+        "mid": 85,
+        "good": 95
+      },
+      "source": "HLEG bii.json"
+    },
+    "pm25": {
+      "label": "PM2.5 Air Quality",
+      "unit": "µg/m³",
+      "direction": "lower_better",
+      "anchors": {
+        "good": 5,
+        "mid": 15,
+        "bad": 35
+      },
+      "source": "HLEG pm25.json"
+    },
+    "produced_capital": {
+      "label": "Produced Capital per Capita",
+      "unit": "USD",
+      "direction": "higher_better",
+      "anchors": {
+        "bad": 10000,
+        "mid": 50000,
+        "good": 120000
+      },
+      "source": "HLEG produced_capital.json"
+    },
+    "hale": {
+      "label": "Healthy Life Expectancy",
+      "unit": "years",
+      "direction": "higher_better",
+      "anchors": {
+        "bad": 50,
+        "mid": 65,
+        "good": 75
+      },
+      "source": "HLEG hale.json"
+    },
+    "gender_pay_ratio": {
+      "label": "Gender Pay Ratio",
+      "unit": "ratio (0-1)",
+      "direction": "higher_better",
+      "anchors": {
+        "bad": 0.7,
+        "mid": 0.85,
+        "good": 0.95
+      },
+      "source": "HLEG gender_pay_ratio.json"
+    },
+    "household_income": {
+      "label": "Household Income per Capita",
+      "unit": "USD",
+      "direction": "higher_better",
+      "anchors": {
+        "bad": 1000,
+        "mid": 12000,
+        "good": 80000
+      },
+      "source": "HLEG household_income.json"
+    },
+    "hale_intl": {
+      "label": "Healthy Life Expectancy (WHO)",
+      "unit": "years",
+      "direction": "higher_better",
+      "anchors": {
+        "bad": 50,
+        "mid": 65,
+        "good": 75
+      },
+      "source": "HLEG hale.json"
+    },
+    "ghg_total_intl": {
+      "label": "Total GHG (international, incl. LULUCF)",
+      "unit": "MtCO2e",
+      "direction": "lower_better",
+      "anchors": {
+        "good": 30,
+        "mid": 100,
+        "bad": 500
+      },
+      "source": "HLEG ghg_total.json"
+    },
+    "co2_per_capita": {
+      "label": "CO2 per Capita",
+      "unit": "tCO2/person",
+      "direction": "lower_better",
+      "anchors": {
+        "good": 2,
+        "mid": 6,
+        "bad": 15
+      },
+      "source": "HLEG co2.json",
+      "value_field": "co2_per_capita_tco2"
+    },
+    "homicide_rate": {
+      "label": "Homicide Rate",
+      "unit": "per 100k",
+      "direction": "lower_better",
+      "anchors": {
+        "good": 3,
+        "mid": 6,
+        "bad": 10
+      },
+      "source": "HLEG homicide_rate.json"
+    },
+    "drinking_water": {
+      "label": "Safely Managed Drinking Water",
+      "unit": "percent",
+      "direction": "higher_better",
+      "anchors": {
+        "bad": 50,
+        "mid": 75,
+        "good": 95
+      },
+      "source": "HLEG drinking_water.json"
+    },
+    "poverty_societal": {
+      "label": "Societal Poverty Rate ($6.85/day)",
+      "unit": "percent",
+      "direction": "lower_better",
+      "anchors": {
+        "good": 5,
+        "mid": 15,
+        "bad": 35
+      },
+      "source": "HLEG poverty_societal.json"
+    },
+    "ipv": {
+      "label": "Intimate Partner Violence",
+      "unit": "percent women",
+      "direction": "lower_better",
+      "anchors": {
+        "good": 5,
+        "mid": 10,
+        "bad": 25
+      },
+      "source": "HLEG ipv.json"
+    },
+    "lu4": {
+      "label": "Labour Underutilization LU4",
+      "unit": "percent",
+      "direction": "lower_better",
+      "anchors": {
+        "good": 5,
+        "mid": 10,
+        "bad": 25
+      },
+      "source": "HLEG lu4.json"
+    },
+    "lbw": {
+      "label": "Low Birthweight",
+      "unit": "percent",
+      "direction": "lower_better",
+      "anchors": {
+        "good": 7,
+        "mid": 10,
+        "bad": 15
+      },
+      "source": "HLEG lbw.json"
+    },
+    "poverty_rate": {
+      "label": "Poverty Rate (national, tiered)",
+      "unit": "percent",
+      "direction": "lower_better",
+      "anchors": {
+        "good": 3,
+        "mid": 10,
+        "bad": 25
+      },
+      "source": "HLEG poverty_rate.json"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "_meta": {
+    "title": "Danish Energy Agency emission coefficients",
+    "source": "Energistyrelsen — Energistatistik 2024, Tabel A4 (Emissionsfaktorer for brændsler)",
+    "url": "https://ens.dk/service/statistik-data-noegletal-og-kort/energistatistik",
+    "unit_energy": "GJ",
+    "unit_emission": "tCO2e per GJ",
+    "note": "Coefficients are lower-heating-value (LHV) basis, matching DST ENE2HO/ENE3H reporting. CO2e includes CO2 + CH4 + N2O with IPCC AR6 GWP100 factors. Biomass CO2 excluded per Danish national inventory convention (same as DST DRIVHUS table GHGEXBIO). Waste_fossil includes fossil fraction of municipal solid waste only.",
+    "fetched": "2026-06-29",
+    "version": "DEA 2024"
+  },
+  "coefficients": {
+    "crude_oil":     { "tCO2e_per_GJ": 0.0735, "fuel_type": "fossil", "note": "Råolie — DEA Tabel A4" },
+    "petrol":        { "tCO2e_per_GJ": 0.0690, "fuel_type": "fossil", "note": "Benzin/motorbrændstof" },
+    "diesel":        { "tCO2e_per_GJ": 0.0741, "fuel_type": "fossil", "note": "Gasolie til transport" },
+    "heating_oil":   { "tCO2e_per_GJ": 0.0735, "fuel_type": "fossil", "note": "Fyringsgasolie" },
+    "natural_gas":   { "tCO2e_per_GJ": 0.0565, "fuel_type": "fossil", "note": "Naturgas — CO2e incl. CH4 fugitives" },
+    "coal":          { "tCO2e_per_GJ": 0.0945, "fuel_type": "fossil", "note": "Kul (hard coal)" },
+    "coke":          { "tCO2e_per_GJ": 0.1077, "fuel_type": "fossil", "note": "Koks — højere C content" },
+    "jet_fuel":      { "tCO2e_per_GJ": 0.0715, "fuel_type": "fossil", "note": "Jetbrændstof (JP-1/Jet A)" },
+    "fuel_oil":      { "tCO2e_per_GJ": 0.0780, "fuel_type": "fossil", "note": "Tung fuelolie (mazut)" },
+    "waste_fossil":  { "tCO2e_per_GJ": 0.0914, "fuel_type": "fossil", "note": "Affald — fossil fraktion (ca. 55% af alt affald i Danmark)" },
+
+    "wind":          { "tCO2e_per_GJ": 0.0000, "fuel_type": "renewable", "note": "Vindkraft — ingen forbrændingsemission" },
+    "solar_pv":      { "tCO2e_per_GJ": 0.0000, "fuel_type": "renewable", "note": "Solceller — ingen forbrændingsemission" },
+    "solar_thermal": { "tCO2e_per_GJ": 0.0000, "fuel_type": "renewable", "note": "Solvarme" },
+    "straw":         { "tCO2e_per_GJ": 0.0000, "fuel_type": "renewable", "note": "Halm — biomasse CO2 ekskl. per DNK konvention" },
+    "firewood":      { "tCO2e_per_GJ": 0.0000, "fuel_type": "renewable", "note": "Brænde" },
+    "wood_chips":    { "tCO2e_per_GJ": 0.0000, "fuel_type": "renewable", "note": "Flis" },
+    "wood_pellets":  { "tCO2e_per_GJ": 0.0000, "fuel_type": "renewable", "note": "Træpiller" },
+    "biogas":        { "tCO2e_per_GJ": 0.0000, "fuel_type": "renewable", "note": "Biogas — biomasse CO2 ekskl." },
+    "biodiesel":     { "tCO2e_per_GJ": 0.0000, "fuel_type": "renewable", "note": "Biodiesel (FAME/HVO) — biomasse CO2 ekskl." },
+    "heat_pumps":    { "tCO2e_per_GJ": 0.0000, "fuel_type": "renewable", "note": "Varmepumper — emissions accounted in electricity source" },
+    "geothermal":    { "tCO2e_per_GJ": 0.0000, "fuel_type": "renewable", "note": "Geothermi" },
+    "waste_bio":     { "tCO2e_per_GJ": 0.0000, "fuel_type": "renewable", "note": "Affald — biologisk fraktion" },
+
+    "electricity":   { "tCO2e_per_GJ": null,   "fuel_type": "end_use",   "note": "End-use vector — emission depends on grid mix. Use grid_emission_factor for calculations. Do not apply a fixed coefficient." },
+    "district_heat": { "tCO2e_per_GJ": null,   "fuel_type": "end_use",   "note": "End-use vector — emission depends on heat plant fuel mix. Use heat_emission_factor." }
+  },
+  "grid_emission_factor": {
+    "_note": "Danish grid average gCO2e/kWh (1 kWh = 0.0036 GJ). Use for electricity end-use calculations in sectors.",
+    "2024": { "gCO2e_per_kWh": 82, "tCO2e_per_GJ": 0.0228, "source": "Energinet Miljødeklaration 2024" },
+    "2023": { "gCO2e_per_kWh": 109, "tCO2e_per_GJ": 0.0303, "source": "Energinet Miljødeklaration 2023" },
+    "2022": { "gCO2e_per_kWh": 130, "tCO2e_per_GJ": 0.0361, "source": "Energinet Miljødeklaration 2022" },
+    "2020": { "gCO2e_per_kWh": 155, "tCO2e_per_GJ": 0.0431, "source": "Energinet Miljødeklaration 2020" },
+    "2015": { "gCO2e_per_kWh": 252, "tCO2e_per_GJ": 0.0700, "source": "Energinet Miljødeklaration 2015" },
+    "2010": { "gCO2e_per_kWh": 370, "tCO2e_per_GJ": 0.1028, "source": "Energinet Miljødeklaration 2010" }
+  },
+  "heat_emission_factor": {
+    "_note": "Danish district heating average gCO2/kWh_heat. Declining as biomass replaces coal in CHP. Source: Fjernvarme Fyn / DEA heat statistics.",
+    "2024": { "gCO2e_per_kWh": 43, "tCO2e_per_GJ": 0.0119, "source": "DEA Fjernvarmestatistik 2024 (est.)" },
+    "2022": { "gCO2e_per_kWh": 55, "tCO2e_per_GJ": 0.0153, "source": "DEA Fjernvarmestatistik 2022" },
+    "2020": { "gCO2e_per_kWh": 72, "tCO2e_per_GJ": 0.0200, "source": "DEA Fjernvarmestatistik 2020" },
+    "2015": { "gCO2e_per_kWh": 110, "tCO2e_per_GJ": 0.0306, "source": "DEA Fjernvarmestatistik 2015" }
+  },
+  "scenario_targets": {
+    "_note": "Klimaloven 2030 + Energiaftale 2022 targets for scenario comparator reference",
+    "klimaloven_2030_ghg_reduction_pct": 70,
+    "klimaloven_2030_base_year": 1990,
+    "renewable_electricity_target_2028_pct": 100,
+    "renewable_energy_total_target_2030_pct": 55,
+    "transport_renewable_current_2024_pct": 3.5,
+    "transport_ev_share_target_2030_pct": 30,
+    "heat_pump_target_million_2030": 1.0,
+    "gas_boiler_ban_year": 2035
+  }
+}

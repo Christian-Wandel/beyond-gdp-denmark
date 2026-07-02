@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "_note": "Edge-list for the policy simulator / cascade cards. The 'strength' field is qualitative (0.0-1.0 ordering), NOT a calibrated coefficient. The folkeskole cascade (first populated cascade) was drafted 2026-06-29 for the WELA meeting; figures pending hardening — see .tmp/folkeskole_cascade_edges.md.",
+  "lever_nodes": {
+    "folkeskole_funding": {
+      "label": "Folkeskole-finansiering",
+      "type": "policy_lever",
+      "note": "Per-pupil funding of Danish primary/lower-secondary school. Measured 2026-07-01: real (2024-kr) public grundskole spend per pupil, data/dst_folkeskole_funding.json — derived from UOE1 (spend, UDDNIV=H10 x EJER=200) / UDDAKT20 (pupils, GRUNDSKOL public institution types, FSTATUS=B) / NAHC1 (offentligt forbrug PL-deflator). 2016-2024, 9 points. Still rendered as a lever, not a measured-indicator dot — the point is showing WHAT the lever did, not treating it as an outcome."
+    }
+  },
+  "node_meta": {
+    "learning_outcomes": {
+      "label": "Faglige resultater (afgangsprøve / 9. klasse)",
+      "type": "measured_external_series",
+      "note": "MEASURED 2026-07-01 via the uddannelsesstatistik.dk API (Børne- og Undervisningsministeriet), data/uddx_learning_outcomes.json — 9th-grade bundne-prøver grade average (7-trins-skala), 2011-2025, 15 points. CONFIRMED ABSENT FROM DST (searched all 2,316 StatBank tables, zero hits) — the point that core learning-outcome data sits OUTSIDE the national statistics apparatus still stands and is itself evidence for WELA's argument; it just now has a fetchable source. This measures the NODE; it does NOT auto-resolve the edges into learning_outcomes (still Phase-3 literature-hardened / draft). Having both endpoints measured now opens a FUTURE Phase-2-style empirical DK calibration opportunity (folkeskole_funding→learning_outcomes, income→learning_outcomes) — not yet done."
+    },
+    "education_share": {
+      "label": "Videregående uddannelse (andel)",
+      "type": "measured_dk_series",
+      "note": "Measured 2026-07-01: tertiary attainment share, population 15-69, data/dst_education_share.json — HFUDD11 re-queried with attainment level broken out (not the existing dst_education.json total headcount). 2008-2025, 18 points."
+    },
+    "neet": {
+      "label": "NEET (uden for uddannelse og beskæftigelse)",
+      "type": "measured_dk_series",
+      "note": "Measured 2026-07-01: NEET share, population 16-24, data/dst_neet.json — NEET1, STATUSNEET=10/00. 2008-2023, 16 points. Replaces the single-point 2024 HLEG benchmark."
+    },
+    "gini": {
+      "label": "Gini-koefficient (ulighed)",
+      "type": "measured_dk_series",
+      "note": "Measured 2026-07-01: Gini coefficient, equivalised disposable income, data/dst_gini.json — IFOR41, ULLIG=70, KOMMUNEDK=000. 1987-2024, 38 points. Replaces the single-point 2023 HLEG benchmark with a long, clean DK-specific trend."
+    },
+    "health": {
+      "label": "Selvvurderet dårligt helbred",
+      "type": "measured_dk_series",
+      "note": "Measured 2026-07-01: self-rated bad/very-bad health share, population 16+, data/dst_health.json — SILC60, SPORG=PH010. 2021-2025, only 5 points (EU-SILC ad-hoc module, short-lived by design). PARTIAL proxy for the `hale` node, not a true healthy-life-expectancy series — `hale` itself stays on its single-point HLEG benchmark. Flag as data-starved for any calibration use."
+    },
+    "social_trust": {
+      "label": "Tillid til fremmede",
+      "type": "measured_dk_series",
+      "note": "Measured 2026-07-01: average trust-in-strangers score, population 16+, data/dst_social_trust.json — SILC52, ENHED=GNS. 2021-2025, only 5 points. CORRECTS a prior session's claim that social trust is confirmed absent from DST — it exists via the EU-SILC ad-hoc module, just recently and briefly. Update any card copy stating trust data is absent. Flag as data-starved for calibration (short window)."
+    }
+  },
+  "nodes": [
+    "population",
+    "life_expectancy",
+    "unemployment",
+    "income",
+    "education",
+    "ghg",
+    "energy",
+    "bii",
+    "pm25",
+    "produced_capital",
+    "gini",
+    "life_satisfaction",
+    "hale",
+    "neet",
+    "gender_pay_ratio",
+    "household_income",
+    "ghg_total_intl",
+    "co2_per_capita",
+    "learning_outcomes",
+    "homicide_rate",
+    "drinking_water",
+    "poverty_societal",
+    "ipv",
+    "lu4",
+    "lbw",
+    "poverty_rate",
+    "education_share",
+    "health",
+    "social_trust"
+  ],
+  "cascades": {
+    "education": {
+      "label": "Uddannelses-kaskaden (folkeskole)",
+      "lever": "folkeskole_funding",
+      "note": "Underfinansiering af folkeskolen og konsekvenserne deraf — efter WELA-rapporten (Ploug & Falkenfleth, maj 2026). Tal er udkast (v1), afventer kildehærdning."
+    }
+  },
+  "edges": [
+    { "cascade": "education", "from": "folkeskole_funding", "to": "learning_outcomes", "relation": "reinforcing", "direction": "positive", "strength": 0.25, "lag_years": 2, "confidence": "med", "source": "Jackson, Johnson & Persico (2016); Hyman (2016); UK DfE school funding literature review (2017); Kaarsen & Rizvanovic (DK gymnasium, null)", "note": "More per-pupil funding → higher learning outcomes, but modest and primary-level only. Phase 3 (2026-07-01): 5 sources triangulated via NotebookLM. Two independent secondary-level null results (DK gymnasium IV, UK KS4) pulled strength DOWN from the 0.4 literature guess; US primary-level natural experiments (Jackson et al., Hyman) support 0.05-0.25 SD per $1,000/10% spending increase, converging toward the low-middle of that range once triangulated. See docs/coefficient_methodology.md Phase 3 section.", "draft": true },
+    { "cascade": "education", "from": "folkeskole_funding", "to": "neet", "relation": "tradeoff", "direction": "negative", "strength": 0.35, "lag_years": 5, "confidence": "med", "source": "OECD Education at a Glance 2023 (NEET chapter)", "note": "Underfunding → weaker retention → more youth NEET. Both nodes now measured (data/dst_folkeskole_funding.json, data/dst_neet.json) — empirical DK check attempted 2026-07-01, best lag=4y r=0.45 but n=4 (data-starved, LEVER only spans 2016-2024). Literature strength kept as-is; see docs/coefficient_methodology.md. Phase 3 (2026-07-01): no source in the 21-source NotebookLM corpus quantifies this edge directly either — confirmed genuine gap across two independent literature searches (Perplexity + NotebookLM). Directional support only from the KS4/gymnasium funding nulls (see folkeskole_funding→learning_outcomes) suggesting the funding→retention channel may be weak; not quantified.", "draft": true, "calibration": "empirical_dk_attempted_insufficient_n" },
+    { "cascade": "education", "from": "learning_outcomes", "to": "income", "relation": "reinforcing", "direction": "positive", "strength": 0.55, "lag_years": 8, "confidence": "high", "source": "OECD Education at a Glance 2024 (tertiary IRR 15-18%); Mincer earnings function; Jackson et al. (2016)", "note": "~8-10% wage premium per school year, cross-checked 2026-07-01 against OECD EaG 2024 tertiary IRR (15% men / 18% women, incl. Denmark-specific NPV figures) and Jackson et al.'s reform-induced wage gains. Best-evidenced edge in the cascade — multiple independent designs converge. See docs/coefficient_methodology.md Phase 3 section.", "source_type": "literature_corroborated" },
+    { "cascade": "education", "from": "learning_outcomes", "to": "unemployment", "relation": "tradeoff", "direction": "negative", "strength": 0.55, "lag_years": 5, "confidence": "high", "source": "OECD Education at a Glance 2024 (Denmark-specific employment rates by attainment, 2023)", "note": "Higher skills → lower unemployment risk. Phase 3 (2026-07-01): DK-specific data found — employment rate 62% (below upper-secondary) vs 89% (tertiary), a 27pp gap. Strength raised from 0.4 (generic OECD/ILO citation) given this DK-specific, large, and directly relevant statistic. See docs/coefficient_methodology.md Phase 3 section.", "source_type": "literature_corroborated" },
+    { "cascade": "education", "from": "neet", "to": "income", "relation": "tradeoff", "direction": "negative", "strength": 0.6, "lag_years": 10, "confidence": "high", "source": "Andersson, Gullberg Brännström & Mörtvik (2018, Sweden twin-pair); Gregg & Tominey (2005, UK IV)", "note": "Youth detachment → scarring → persistently lower lifetime income. Both nodes now measured (data/dst_neet.json, data/dst_income.json) — empirical DK check attempted 2026-07-01, best lag=12y r=0.25 but n=5 (data-starved, NEET series only spans 2008-2023 and a 10-12y lag eats most of the overlap). Literature strength kept as-is initially; see docs/coefficient_methodology.md. Phase 3 (2026-07-01): literature now strongly corroborates independent of the data-starved empirical attempt — Swedish twin-pair design (controls family confounds) finds 33% lower income after 1yr NEET, dose-responsive to duration (up to 62% after 3yr); UK IV design finds a corroborating 13-21% wage scar, near-permanent after 20+ years. Strength raised 0.5→0.6 reflecting two independent high-quality causal designs converging. See docs/coefficient_methodology.md Phase 3 section.", "draft": true, "calibration": "empirical_dk_attempted_insufficient_n" },
+    { "cascade": "education", "from": "neet", "to": "life_satisfaction", "relation": "tradeoff", "direction": "negative", "strength": 0.25, "lag_years": 2, "confidence": "med", "source": "OECD Review of education policies / Life at a Glance (employment-status proxy); Clark et al., The Origins of Happiness (2018)", "note": "Detachment / unemployment → lower subjective wellbeing. Phase 3 (2026-07-01): OECD 0-10 ladder data gives full-time-employed 6.5 vs 'others' 6.1 (0.4pt gap, ≈0.19 SD-equivalent) as an employment-status proxy for NEET — weaker than the Clark et al. citation implied, strength revised down 0.35→0.25. Proxy scope caveat: measures broad employment status, not NEET specifically. See docs/coefficient_methodology.md Phase 3 section.", "draft": true },
+    { "cascade": "education", "from": "income", "to": "life_satisfaction", "relation": "reinforcing", "direction": "positive", "strength": 0.3, "lag_years": 1, "confidence": "high", "source": "OECD Review of education policies (0-10 ladder, richest vs poorest quintile); Kahneman & Deaton (2010); Killingsworth (2021)", "note": "Higher income → higher life satisfaction, concave (diminishing returns). Phase 3 (2026-07-01): OECD Gallup 0-10 ladder data gives richest 20% = 6.4 vs poorest 20% = 5.8 (0.6pt gap, ≈0.29 SD-equivalent) — closely confirms the existing literature-only strength value. See docs/coefficient_methodology.md Phase 3 section.", "source_type": "literature_corroborated" },
+    { "cascade": "education", "from": "income", "to": "hale", "relation": "reinforcing", "direction": "positive", "strength": 0.4, "lag_years": 10, "confidence": "high", "source": "Marmot, The Health Gap (2015); WHO social determinants", "note": "Social gradient: higher income → better healthy life expectancy. Phase 3 (2026-07-01): Danish disease-incidence gradient study (Pallesen et al. 2024, 4.5M residents) confirms the DK-specific gradient exists and is large for some conditions (schizophrenia IRR 18.4 men / 10.1 women) but is disease-specific incidence data, not a HALE effect size — converting an IRR directly into this edge's strength would be false precision (same failure mode already rejected on income→life_expectancy's r=0.99). A second candidate source (Balaj et al. mortality meta-analysis) could not be verified as corpus-grounded this session — flagged, not used. No change to strength/lag; literature existence confirmed, magnitude not updated. See docs/coefficient_methodology.md Phase 3 section.", "draft": true, "calibration": "phase3_literature_reviewed_no_convertible_estimate" },
+    { "cascade": "education", "from": "income", "to": "life_expectancy", "relation": "reinforcing", "direction": "positive", "strength": 0.4, "lag_years": 5, "confidence": "med", "source": "Empirical DK: data/dst_income.json x data/dst_life_expectancy.json (r=0.99, n=33, lag=5y), cross-checked against Marmot / Chetty et al. (2016) income-longevity gradient", "note": "Empirically calibrated 2026-07-01: best-fit lag=5y (not the literature's 10y), r=0.99 on 33 overlapping years — but flagged HONEST-CAVEAT: both series carry strong secular upward trends over the full window, so this correlation is likely trend-driven, not a clean isolated causal signal at this lag. strength left at the literature value (0.4) pending a detrended re-estimate; only lag_years updated to the empirically-supported value. See docs/coefficient_methodology.md. Phase 3 (2026-07-01): NotebookLM literature search found no additional corpus-grounded cross-check for this specific edge (one candidate source, Balaj et al., could not be verified as corpus-grounded — not used). Trend-confound caveat and detrending recommendation from Phase 2 both stand unchanged.", "draft": true, "calibration": "empirical_dk_trend_confound" },
+    { "cascade": "education", "from": "learning_outcomes", "to": "gini", "relation": "tradeoff", "direction": "negative", "strength": 0.35, "lag_years": 15, "confidence": "med", "source": "Goldin & Katz, The Race between Education and Technology (2008); Kim (2014), 100-country panel; Breen & Andersen (2012, Denmark assortative mating)", "note": "Broad-based attainment compresses the wage distribution. Most contested edge. Phase 3 (2026-07-01): three sources triangulated via NotebookLM, disagreeing on mechanism/magnitude. Goldin & Katz elasticity (-0.61, US, individual wage-compression channel) is the only convertible number but is US-only. Kim's 100-country panel finds this effect is explicitly WEAKER in developed countries like Denmark (fixed-effects coefficient 0.170, inverted-U past DK's education level). Breen & Andersen (DK-direct, whole-population register data) find assortative mating shifts explain ~40% of Denmark's 1987-2006 inequality rise via a different (household-formation) channel. Strength raised slightly (0.3→0.35) reflecting three converging-but-disagreeing sources rather than one contested citation; kept moderate given the DK-relevance caveats on all three. See docs/coefficient_methodology.md Phase 3 section.", "draft": true },
+    { "cascade": "education", "from": "neet", "to": "poverty_rate", "relation": "tradeoff", "direction": "positive", "strength": 0.45, "lag_years": 5, "confidence": "med", "source": "Heglum & Nilsen (2024, Norway life-course NEET study); Andersson et al. (2018, income-reduction proxy)", "note": "Youth detachment → higher poverty risk. Phase 3 (2026-07-01): Norwegian full-population registry study (125,804 individuals, 1971-1986 cohorts) finds long-term-exclusion trajectory probability rising from 19% to 33% across cohorts, and permanent-disability-pension trajectory rising 7.8%→11.4% — descriptive, not causal, but large and DK-region-adjacent. Strength raised 0.4→0.45. Lag tension flagged: the Norwegian study's window is 10 years (age 22→31), longer than this edge's 5y, but poverty risk is expected to manifest faster than the full wage-scarring effect (see neet→income) — 5y kept as a defensible middle estimate, not the full 10y trajectory horizon. See docs/coefficient_methodology.md Phase 3 section.", "draft": true },
+    { "cascade": "education", "from": "gini", "to": "life_satisfaction", "relation": "tradeoff", "direction": "negative", "strength": 0.25, "lag_years": 3, "confidence": "low", "source": "Wilkinson & Pickett, The Spirit Level (2009)", "note": "Higher inequality → lower average life satisfaction (society-level). Contested — shown low/dashed. Phase 3 (2026-07-01): NotebookLM literature search found supporting CONTEXT (Denmark's low corruption perception, general trust/inequality gradient in OECD data) but no direct quantitative Gini→satisfaction coefficient to replace or corroborate the Wilkinson & Pickett citation — remains the single least-evidenced edge in the cascade. See docs/coefficient_methodology.md Phase 3 section.", "draft": true, "contested": true },
+    { "cascade": "education", "from": "income", "to": "learning_outcomes", "relation": "reinforcing", "direction": "positive", "strength": 0.3, "lag_years": 15, "confidence": "med", "source": "Chetty et al. (2014) intergenerational mobility (Denmark rank-rank slope 0.180); DK national-test parental-education gradient (proxy)", "note": "Reinforcing loop: higher household income → better next-generation learning. Makes underfunding compound across generations. Phase 3 (2026-07-01): DK-direct Chetty rank-rank slope = 0.180 (vs. US 0.341) treated as an UPPER-BOUND anchor, since it measures whole-of-life-course income mobility, not the income→learning_outcomes sub-link specifically. A second DK proxy (national-test data) gives a 0.25-1+ SD gap by parental EDUCATION, not income — an adjacent-variable proxy, not a direct estimate. Strength revised down slightly (0.35→0.3) treating 0.180 honestly as an upper bound rather than a direct estimate. This is the proxy-substitution case anticipated in the Phase 3 plan — both available DK numbers are proxies, not a precise match. See docs/coefficient_methodology.md Phase 3 section.", "draft": true, "loop": true }
+  ],
+  "_examples": [
+    {
+      "_comment": "Example: reducing GHG emissions via fossil fuel phase-out may temporarily raise unemployment (coal/oil sector workers). Negative short-term, positive long-term — use lag_years to capture that.",
+      "from": "ghg",
+      "to": "unemployment",
+      "direction": "positive",
+      "strength": 0.3,
+      "lag_years": 2,
+      "confidence": "med",
+      "source": "IPCC AR6 WG3 Ch.4 — just-transition costs",
+      "note": "Fossil fuel employment displacement; offset by green job creation over ~5y"
+    },
+    {
+      "_comment": "Example: improving education (higher attainment share) raises income over time — classic human capital theory.",
+      "from": "education",
+      "to": "income",
+      "direction": "positive",
+      "strength": 0.5,
+      "lag_years": 5,
+      "confidence": "high",
+      "source": "Mincer earnings equation; OECD Education at a Glance 2023",
+      "note": "1 extra year of schooling ≈ 8-10% wage premium"
+    },
+    {
+      "_comment": "Example: lower PM2.5 improves healthy life expectancy (HALE). Well-evidenced causal link.",
+      "from": "pm25",
+      "to": "hale",
+      "direction": "negative",
+      "strength": 0.6,
+      "lag_years": 1,
+      "confidence": "high",
+      "source": "GBD 2019 — ambient air pollution attributable DALY",
+      "note": "Direction negative: lower pm25 → higher hale (pm25 is lower_better, hale is higher_better)"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "source": "uddannelsesstatistik.dk (GS/TRIV/TRIVIND)",
+    "table": "Indikatorsvar - Landstal, 'Generel trivsel'",
+    "label": "Student wellbeing, general (mean score 1-5)",
+    "unit": "score_1_5",
+    "fetched": "2026-07-01",
+    "latest_year": "2026"
+  },
+  "data": {
+    "DNK": {
+      "name": "Denmark",
+      "value": 3.6,
+      "year": "2026",
+      "series": {
+        "2015": 3.7,
+        "2016": 3.8,
+        "2017": 3.8,
+        "2018": 3.7,
+        "2019": 3.7,
+        "2020": 3.7,
+        "2021": 3.7,
+        "2022": 3.7,
+        "2023": 3.6,
+        "2024": 3.6,
+        "2025": 3.6,
+        "2026": 3.6
+      }
+    }
+  }
+}

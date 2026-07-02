@@ -1,0 +1,47 @@
+{
+  "_comment": "Display-only literature-anchored unit translations (roadmap Phase 5). Statements scale with the LEVER percent (real kr per pupil), using the cited studies' own dose-response figures. They NEVER read the simulator's unitless deltas - that would violate the Q3 decision (no calibrated coefficients). All money in DKK: foreign studies contribute percentage effects only, applied to Danish kr baselines. Consumed by js/cascade-translate.js.",
+  "_gate": "Translations render only within |lever change| <= gate_abs_pct. The cited studies cover roughly 10-25% spending variation; extrapolating to the +/-100% bookends is not supported.",
+  "baselines": {
+    "as_of": 2024,
+    "cohort_pupils": 51000,
+    "total_pupils": 514299,
+    "pupils_source": "data/dst_folkeskole_funding.json breakdown.public_grundskole_pupils (2024: 514,299 across ~10 year-groups)",
+    "income_source": "DST INDKP101 latest value, read live from the loaded dataset (not baked here)"
+  },
+  "nodes": {
+    "income": {
+      "gate_abs_pct": 20,
+      "per_10pct_wage_effect": { "central": 0.07, "high_low_income": 0.096 },
+      "chain": [
+        "Jackson, Johnson & Persico (2016): +10% per-pupil spending sustained through all school years -> ~7% higher adult wages (9.6% for low-income pupils). US quasi-experimental (court-ordered finance reforms)."
+      ],
+      "geography_flag": "Based on American school-funding reforms (Jackson, Johnson & Persico 2016). No Danish folkeskole study exists; the one Danish causal study (gymnasium level) found no effect.",
+      "lag_display": "15 to 30 years, when today's pupils are grown"
+    },
+    "unemployment": {
+      "gate_abs_pct": 20,
+      "per_10pct_completion_pp": { "low": 3, "high": 5 },
+      "employment_gap_pp": 20,
+      "chain": [
+        "Hyman (2016): +10% per-pupil spending -> +3-5pp upper-secondary completion (US, Michigan IV).",
+        "OECD Education at a Glance 2024, Denmark 2023: employment rate 62% (below upper-secondary) vs 82% (upper secondary) - a 20pp gap."
+      ],
+      "geography_flag": "Based on US school-funding studies (Hyman 2016) combined with OECD's employment figures for Denmark (Education at a Glance 2024). Chaining two studies compounds uncertainty - shown as a range.",
+      "lag_display": "when today's pupils reach working age"
+    },
+    "life_satisfaction": {
+      "gate_abs_pct": 20,
+      "employment_channel_points": 0.4,
+      "income_channel_points_per_10pct": 0.04,
+      "ladder_in_work": 6.5,
+      "ladder_out_of_work": 6.1,
+      "chain": [
+        "OECD Gallup 0-10 ladder: full-time employed report 6.5 vs 6.1 for those outside work - ~0.4 points per person moved into employment.",
+        "OECD Gallup 0-10 ladder: richest 20% report 6.4 vs 5.8 for poorest 20%; via a log-income gradient, +7% income -> ~0.04 points cohort-wide."
+      ],
+      "geography_flag": "OECD Gallup surveys across many countries, not Danish-specific.",
+      "units_caveat": "Adult life satisfaction on the 0-10 Cantril ladder - NOT the pupil-wellbeing series (1-5 scale) charted for this node.",
+      "lag_display": "follows the income and employment effects (15-30 years)"
+    }
+  }
+}

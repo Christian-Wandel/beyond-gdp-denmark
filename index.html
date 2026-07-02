@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beyond GDP Denmark · Boundary Dashboard</title>
+  <script>
+    (function(){try{var s=localStorage.getItem('bgdp-dk-theme');var p=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;document.documentElement.setAttribute('data-theme',s||(p?'dark':'light'));}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    /* ── Theme tokens ─────────────────────────────────────────────────────────── */
+    :root,:root[data-theme="dark"]{
+      --bg:#0b0e18;--surface:#141828;--surface-2:#1d2237;--surface-3:#252d40;
+      --border:#2a3050;--border-strong:#3a4170;
+      --text:#e8eaf0;--text-muted:#a8acc4;--text-subtle:#7a7e9d;
+      --green:#22c55e;--green-dark:#16a34a;--amber:#f59e0b;--red:#ef4444;
+      --green-bg:rgba(34,197,94,0.15);--amber-bg:rgba(245,158,11,0.15);--red-bg:rgba(239,68,68,0.15);--gray-bg:rgba(139,143,168,0.10);
+      --chart-text:#e6e8f2;--chart-text-mid:#adb1c8;--chart-text-low:#8b8fa8;
+      --chart-grid:rgba(255,255,255,0.18);--chart-grid-soft:rgba(255,255,255,0.06);
+      --accent:#4f7fff;--accent-hover:#6b8fff;--accent-bg:rgba(79,127,255,0.10);
+      --radius:12px;--radius-sm:6px;
+      --shadow-card:0 2px 12px rgba(0,0,0,0.35);--shadow-lift:0 6px 24px rgba(0,0,0,0.45);
+      --transition-fast:150ms ease;--transition-base:240ms cubic-bezier(0.4,0,0.2,1);
+      color-scheme:dark;
+    }
+    :root[data-theme="light"]{
+      --bg:#f7f7f5;--surface:#ffffff;--surface-2:#f1f2f4;--surface-3:#e7e9ee;
+      --border:#dfe2e8;--border-strong:#c2c7d0;
+      --text:#14171f;--text-muted:#555a6a;--text-subtle:#8a8f9d;
+      --green:#15803d;--green-dark:#166534;--amber:#b45309;--red:#b91c1c;
+      --green-bg:rgba(21,128,61,0.10);--amber-bg:rgba(180,83,9,0.10);--red-bg:rgba(185,28,28,0.10);--gray-bg:rgba(85,90,106,0.08);
+      --chart-text:#14171f;--chart-text-mid:#4b5163;--chart-text-low:#6b7080;
+      --chart-grid:rgba(20,23,31,0.18);--chart-grid-soft:rgba(20,23,31,0.06);
+      --accent:#2056d6;--accent-hover:#1640a8;--accent-bg:rgba(32,86,214,0.08);
+      --shadow-card:0 1px 3px rgba(20,23,31,0.06),0 1px 2px rgba(20,23,31,0.04);
+      --shadow-lift:0 8px 24px rgba(20,23,31,0.12),0 2px 6px rgba(20,23,31,0.06);
+      color-scheme:light;
+    }
+    @media(prefers-reduced-motion:reduce){:root{--transition-fast:0ms;--transition-base:0ms;}}
+
+    /* ── Reset ────────────────────────────────────────────────────────────────── */
+    *{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:'Space Grotesk',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;font-size:16px;line-height:1.6;transition:background-color var(--transition-base),color var(--transition-base);}
+
+    /* ── Loading overlay ──────────────────────────────────────────────────────── */
+    #loading-overlay{position:fixed;inset:0;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;z-index:999;}
+    #loading-overlay.hidden{display:none;}
+    .loader{width:36px;height:36px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin 0.8s linear infinite;}
+    @keyframes spin{to{transform:rotate(360deg);}}
+
+    /* ── Header ───────────────────────────────────────────────────────────────── */
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 32px;border-bottom:1px solid var(--border);background:var(--surface);position:sticky;top:0;z-index:80;}
+    .header-title{display:flex;align-items:baseline;gap:10px;}
+    .header-title h1{font-size:1.15rem;font-weight:700;letter-spacing:-0.02em;}
+    .header-title span{font-size:0.8rem;color:var(--text-muted);}
+    .header-badge{font-size:0.7rem;background:var(--surface-2);border:1px solid var(--border);color:var(--text-muted);padding:3px 10px;border-radius:100px;}
+    .header-right{display:flex;align-items:center;gap:12px;}
+    .theme-toggle{width:38px;height:38px;border:1px solid var(--border);background:transparent;border-radius:50%;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;color:var(--text);flex-shrink:0;transition:border-color var(--transition-fast),background var(--transition-fast);}
+    .theme-toggle:hover{border-color:var(--accent);background:var(--accent-bg);color:var(--accent);}
+    .theme-toggle svg{width:18px;height:18px;stroke-width:2;}
+    .theme-toggle .icon-moon{display:none;}
+    [data-theme="light"] .theme-toggle .icon-sun{display:none;}
+    [data-theme="light"] .theme-toggle .icon-moon{display:inline-block;}
+
+    /* ── App shell ────────────────────────────────────────────────────────────── */
+    .app-shell{display:flex;min-height:calc(100vh - 61px);}
+
+    /* ── Left nav ─────────────────────────────────────────────────────────────── */
+    .left-nav{width:200px;flex-shrink:0;background:var(--surface);border-right:1px solid var(--border);display:flex;flex-direction:column;position:sticky;top:61px;height:calc(100vh - 61px);overflow-y:auto;z-index:70;}
+    .left-nav-section{padding:20px 0 8px;}
+    .left-nav-label{font-size:0.62rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-subtle);padding:0 16px 8px;}
+    .left-nav-item{display:flex;align-items:center;gap:10px;padding:9px 16px;border:none;background:transparent;color:var(--text-muted);font-family:inherit;font-size:0.85rem;font-weight:500;cursor:pointer;width:100%;text-align:left;border-left:3px solid transparent;transition:color var(--transition-fast),background var(--transition-fast),border-left-color var(--transition-fast);text-decoration:none;}
+    .left-nav-item:hover{color:var(--text);background:var(--surface-2);}
+    .left-nav-item.active{color:var(--text);background:var(--accent-bg);border-left-color:var(--accent);font-weight:600;}
+    .left-nav-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;background:var(--border-strong);transition:background var(--transition-fast);}
+    .left-nav-item.active .left-nav-dot{background:var(--accent);}
+    .left-nav-dot.dot-green{background:var(--green);}
+    .left-nav-dot.dot-amber{background:var(--amber);}
+    .left-nav-dot.dot-red{background:var(--red);}
+    .left-nav-divider{height:1px;background:var(--border);margin:8px 16px;}
+
+    /* ── Main content ─────────────────────────────────────────────────────────── */
+    .main-content{flex:1;min-width:0;overflow-x:hidden;}
+    main{padding:28px 32px;}
+
+    /* ── Summary bar ──────────────────────────────────────────────────────────── */
+    .summary-bar{background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius);padding:16px 22px;margin-bottom:28px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-size:0.95rem;}
+    .sum-label{color:var(--text-muted);margin-right:4px;}
+    .sum-item{font-weight:700;padding:4px 12px;border-radius:100px;font-size:0.88rem;letter-spacing:0.03em;}
+    .sum-green{background:var(--green-bg);color:var(--green);}
+    .sum-amber{background:var(--amber-bg);color:var(--amber);}
+    .sum-red{background:var(--red-bg);color:var(--red);}
+    .sum-gray{background:var(--gray-bg);color:var(--text-muted);}
+
+    /* ── Sections ─────────────────────────────────────────────────────────────── */
+    .section{margin-bottom:40px;scroll-margin-top:80px;}
+    .section-title{font-size:1.25rem;font-weight:700;letter-spacing:-0.01em;margin-bottom:6px;}
+    .section-sub{color:var(--text-muted);font-size:0.95rem;margin-bottom:20px;max-width:80ch;}
+
+    /* ── Card grid ────────────────────────────────────────────────────────────── */
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;}
+
+    /* ── Indicator cards ──────────────────────────────────────────────────────── */
+    .card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:16px 16px 12px;border-left:4px solid var(--border);box-shadow:var(--shadow-card);transition:transform var(--transition-fast),box-shadow var(--transition-fast);animation:cardSlideUp var(--transition-base) ease-out backwards;}
+    .card:hover{transform:translateY(-2px);box-shadow:var(--shadow-lift);}
+    .card-green{border-left-color:var(--green);}
+    .card-amber{border-left-color:var(--amber);}
+    .card-red{border-left-color:var(--red);}
+    .card-gray{border-left-color:var(--border-strong);}
+    @keyframes cardSlideUp{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
+
+    .card-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;gap:8px;}
+    .card-label{font-weight:600;font-size:1.05rem;line-height:1.3;}
+    .card-year{color:var(--text-subtle);font-size:0.85rem;margin-top:2px;}
+    .card-value{font-size:1.6rem;font-weight:800;text-align:right;line-height:1.2;margin-top:4px;}
+
+    .badge{display:inline-block;font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;padding:3px 10px;border-radius:100px;}
+    .badge-green{background:var(--green-bg);color:var(--green);}
+    .badge-amber{background:var(--amber-bg);color:var(--amber);}
+    .badge-red{background:var(--red-bg);color:var(--red);}
+    .badge-gray{background:var(--gray-bg);color:var(--text-muted);}
+
+    .chart-container{height:200px;width:100%;}
+
+    .target-note{font-size:0.85rem;color:var(--text-subtle);margin-top:8px;padding-top:8px;border-top:1px solid var(--border);}
+    .gap-note{color:var(--amber);}
+
+    /* ── Cascade card (folkeskole / WELA apparatus) ───────────────────────────── */
+    .cascade-panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px 24px;box-shadow:var(--shadow-card);}
+    .cascade-layout{display:grid;grid-template-columns:1.6fr 1fr;gap:20px;align-items:start;}
+    #cascade-graph{width:100%;height:880px;}
+    .cascade-legend{display:flex;flex-wrap:wrap;gap:10px 18px;margin:4px 0 10px;font-size:0.8rem;color:var(--text-muted);}
+    .cascade-legend .lg{display:inline-flex;align-items:center;gap:6px;}
+    .lg-line{width:24px;height:0;border-top-width:2.5px;border-top-style:solid;}
+    .lg-green{border-top-color:var(--green);}
+    .lg-red{border-top-color:var(--red);}
+    .lg-solid{border-top-style:solid;border-top-color:var(--text-muted);}
+    .lg-dashed{border-top-style:dashed;border-top-color:var(--text-muted);}
+    .lg-dotted{border-top-style:dotted;border-top-color:var(--text-muted);}
+
+    .cascade-side{background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:18px 22px;}
+    .cascade-side h3{font-size:0.85rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-subtle);margin-bottom:10px;}
+    .cascade-side h3.gap{color:var(--amber);}
+    .cascade-side ul{list-style:none;display:flex;flex-direction:column;gap:10px;margin-bottom:20px;}
+    .cascade-side li{font-size:0.92rem;line-height:1.55;color:var(--text-muted);padding-left:16px;position:relative;}
+    .cascade-side li::before{content:'';position:absolute;left:0;top:7px;width:6px;height:6px;border-radius:50%;background:var(--amber);}
+    .cascade-side li.want::before{background:var(--accent);}
+    .cascade-side li.strong::before{background:var(--green);}
+    .findings-summary{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px;}
+    .findings-note{font-size:0.92rem;line-height:1.55;color:var(--text-muted);margin-bottom:10px;}
+    .findings-note:last-child{margin-bottom:0;}
+
+    /* ── What-if simulator ────────────────────────────────────────────────────── */
+    .cascade-simulator{background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:16px 22px;margin-bottom:18px;}
+    .sim-header{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:10px;}
+    .sim-header h3{font-size:0.85rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-subtle);font-weight:700;}
+    .sim-value{font-size:1.1rem;font-weight:800;color:var(--accent);}
+    .sim-slider{width:100%;accent-color:var(--accent);margin:6px 0;}
+    .sim-envelope{display:flex;justify-content:space-between;font-size:0.75rem;color:var(--text-subtle);margin-bottom:14px;}
+    .sim-envelope-label{opacity:0.8;}
+    .sim-presets{display:flex;gap:8px;flex-wrap:wrap;}
+    .sim-preset-btn{font-size:0.8rem;font-weight:600;padding:6px 14px;border-radius:100px;border:1px solid var(--border-strong);background:var(--surface);color:var(--text-muted);cursor:pointer;transition:background var(--transition-fast),color var(--transition-fast);}
+    .sim-preset-btn:hover{background:var(--accent-bg);color:var(--accent);}
+    .sim-preset-btn.active{background:var(--accent);color:#fff;border-color:var(--accent);}
+
+    .cascade-results{margin-bottom:18px;padding-bottom:16px;border-bottom:1px solid var(--border);}
+    .sim-results-collapse summary{cursor:pointer;list-style:none;}
+    .sim-results-collapse summary::-webkit-details-marker{display:none;}
+    .sim-results-collapse summary h3{display:inline-flex;align-items:center;gap:6px;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-subtle);margin-bottom:0;}
+    .sim-results-collapse summary h3::before{content:'▸';font-size:0.7em;transition:transform var(--transition-fast);}
+    .sim-results-collapse[open] summary h3::before{transform:rotate(90deg);}
+    .sim-results-collapse[open] summary{margin-bottom:10px;}
+    .sim-results-list{list-style:none;display:flex;flex-direction:column;gap:10px;margin-bottom:10px;}
+    .sim-result{font-size:0.88rem;padding:8px 10px;border-radius:var(--radius-sm);border-left:3px solid var(--border-strong);}
+    .sim-result.up{border-left-color:var(--green);}
+    .sim-result.down{border-left-color:var(--red);}
+    .sim-result-head{display:flex;justify-content:space-between;align-items:baseline;color:var(--text-muted);}
+    .sim-result-lag{font-size:0.72rem;color:var(--text-subtle);}
+    .sim-result-bar-row{display:flex;align-items:center;gap:8px;margin-top:2px;flex-wrap:wrap;}
+    .sim-result-dir{font-weight:700;font-size:0.85rem;}
+    .sim-result.up .sim-result-dir{color:var(--green);}
+    .sim-result.down .sim-result-dir{color:var(--red);}
+    .sim-result-tag{font-size:0.68rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--amber);background:var(--amber-bg,rgba(245,158,11,0.12));padding:1px 7px;border-radius:100px;}
+    .sim-result-prov{font-size:0.78rem;color:var(--text-subtle);margin-top:3px;font-style:italic;}
+    .sim-footer-caveat{font-size:0.78rem;font-style:italic;opacity:0.85;}
+    .cascade-drawer-hint{font-size:0.8rem;color:var(--text-subtle);margin:-4px 0 12px;font-style:italic;}
+
+    /* ── Real-unit translation (Phase 5, literature-anchored illustration) ───────── */
+    /* Shared header + methodology, rendered once above the ripple list. */
+    .sim-translate-header-block{margin-bottom:10px;}
+    .sim-translate-head{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:6px;}
+    .sim-translate-head h4{font-size:0.82rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-muted);margin:0;}
+    .sim-translate-badge{font-size:0.68rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--accent);background:var(--accent-bg);padding:1px 8px;border-radius:100px;}
+    .sim-translate-gate{font-size:0.82rem;color:var(--text-subtle);font-style:italic;margin:0 0 6px;}
+    .sim-translate-method{font-size:0.78rem;color:var(--text-subtle);}
+    .sim-translate-method summary{cursor:pointer;color:var(--text-muted);font-weight:600;}
+    .sim-translate-method p{margin-top:6px;line-height:1.5;}
+    /* Per-variable sentence, inlined beneath its ripple item. */
+    .sim-translate-inline{margin-top:6px;padding-top:6px;border-top:1px dashed var(--border);}
+    .sim-translate-sentence{display:block;font-size:0.82rem;line-height:1.5;color:var(--text-muted);}
+    .sim-translate-flag{display:block;font-size:0.72rem;color:var(--text-subtle);font-style:italic;margin-top:2px;}
+
+    /* ── GDP reference strip (the alongside-GDP thesis, on screen) ───────────────── */
+    .gdp-strip{display:flex;align-items:center;gap:18px;background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:12px 20px;margin-bottom:14px;flex-wrap:wrap;}
+    .gdp-strip-figure{display:flex;flex-direction:column;flex-shrink:0;}
+    .gdp-strip-label{font-size:0.68rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-subtle);}
+    .gdp-strip-value{font-size:1.15rem;font-weight:800;color:var(--text);}
+    .gdp-strip-value .yoy-pos{color:var(--green);}
+    .gdp-strip-value .yoy-neg{color:var(--red);}
+    .gdp-strip-spark{width:120px;height:34px;flex-shrink:0;}
+    .gdp-strip-note{font-size:0.85rem;color:var(--text-muted);line-height:1.4;flex:1;min-width:200px;}
+
+    /* ── Node data drawer (click-a-node data transparency) ────────────────────── */
+    .node-drawer{position:absolute;top:12px;right:12px;width:320px;max-width:calc(100% - 24px);max-height:calc(100% - 24px);overflow-y:auto;background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius);box-shadow:var(--shadow-lift);padding:16px 18px;z-index:20;transition:opacity var(--transition-fast),transform var(--transition-fast);}
+    .node-drawer.hidden{display:none;}
+    .node-drawer-close{position:absolute;top:10px;right:10px;width:26px;height:26px;border:none;background:transparent;color:var(--text-subtle);font-size:1.1rem;line-height:1;cursor:pointer;border-radius:50%;display:flex;align-items:center;justify-content:center;}
+    .node-drawer-close:hover{background:var(--surface-2);color:var(--text);}
+    .node-drawer h3{font-size:1rem;font-weight:700;margin:0 26px 4px 0;line-height:1.3;}
+    .node-drawer-def{font-size:0.85rem;color:var(--text-muted);line-height:1.5;margin-bottom:8px;}
+    .node-drawer-coverage{font-size:0.75rem;color:var(--text-subtle);margin-bottom:8px;}
+    .node-drawer-caveat{font-size:0.8rem;color:var(--amber);background:var(--amber-bg);border-radius:var(--radius-sm);padding:8px 10px;margin-bottom:10px;line-height:1.45;}
+    .node-drawer-chart{height:140px;width:100%;margin-bottom:10px;}
+    .node-drawer-benchmark{font-size:0.85rem;color:var(--text-muted);margin-bottom:10px;}
+    .node-drawer-benchmark b{color:var(--text);font-size:1.1rem;}
+    .node-drawer-actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center;}
+    .node-drawer-source{font-size:0.8rem;color:var(--accent);text-decoration:none;}
+    .node-drawer-source:hover{text-decoration:underline;}
+    .node-drawer-csv{font-size:0.78rem;font-weight:600;padding:5px 12px;border-radius:100px;border:1px solid var(--border-strong);background:var(--surface-2);color:var(--text-muted);cursor:pointer;}
+    .node-drawer-csv:hover{background:var(--accent-bg);color:var(--accent);border-color:var(--accent);}
+    .cascade-layout{position:relative;}
+    @media(max-width:900px){.node-drawer{position:static;width:100%;max-width:none;margin-top:12px;}}
+
+    /* ── Reserve stub cards (illustrative, no data) ───────────────────────────── */
+    .stub-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:8px;}
+    .stub-card{background:var(--surface);border:1px dashed var(--border-strong);border-radius:var(--radius);padding:16px 18px;opacity:0.92;}
+    .stub-card .badge-illustrative{display:inline-block;font-size:0.68rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;padding:2px 8px;border-radius:100px;background:var(--gray-bg);color:var(--text-subtle);margin-bottom:8px;}
+    .stub-card h3{font-size:1rem;font-weight:700;margin-bottom:6px;line-height:1.3;}
+    .stub-card p{font-size:0.85rem;color:var(--text-muted);line-height:1.5;}
+    .stub-card .stub-data{font-size:0.78rem;color:var(--text-subtle);margin-top:8px;font-style:italic;}
+    @media(max-width:900px){.cascade-layout{grid-template-columns:1fr;}.stub-grid{grid-template-columns:1fr;}#cascade-graph{height:480px;}}
+
+    /* ── Footer ───────────────────────────────────────────────────────────────── */
+    .page-footer{margin-top:48px;padding:16px 0 20px;border-top:1px solid var(--border);color:var(--text-subtle);font-size:0.72rem;display:flex;flex-wrap:wrap;gap:6px 24px;}
+    .page-footer a{color:var(--accent);text-decoration:none;}
+    .page-footer a:hover{text-decoration:underline;}
+
+    /* ── Scrollbar ────────────────────────────────────────────────────────────── */
+    ::-webkit-scrollbar{width:6px;}::-webkit-scrollbar-track{background:var(--bg);}::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px;}
+
+    /* ── Responsive ───────────────────────────────────────────────────────────── */
+    @media(max-width:768px){
+      .app-shell{flex-direction:column;}
+      .left-nav{width:100%;height:auto;position:static;flex-direction:row;overflow-x:auto;overflow-y:hidden;border-right:none;border-bottom:1px solid var(--border);}
+      .left-nav-section{display:flex;padding:0;flex-direction:row;}
+      .left-nav-label,.left-nav-divider{display:none;}
+      .left-nav-item{border-left:none;border-bottom:3px solid transparent;white-space:nowrap;padding:12px 14px 9px;}
+      .left-nav-item.active{border-bottom-color:var(--accent);border-left:none;}
+      .left-nav-dot{display:none;}
+    }
+    @media(max-width:600px){
+      header{padding:14px 16px;}
+      .header-title h1{font-size:1rem;}
+      main{padding:16px 14px;}
+      .grid{grid-template-columns:1fr;}
+      .sc-delta-row{flex-direction:column;align-items:stretch;}
+    }
+  </style>
+</head>
+<body>
+
+<div id="loading-overlay">
+  <div class="loader"></div>
+  <span style="color:var(--text-muted);font-size:0.85rem">Loading data…</span>
+</div>
+
+<header>
+  <div class="header-title">
+    <h1>Beyond GDP Denmark</h1>
+    <span>Boundary Dashboard</span>
+  </div>
+  <div class="header-right">
+    <div class="header-badge">Data: DST StatBank</div>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark / light mode">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+    </button>
+  </div>
+</header>
+
+<div class="app-shell">
+
+  <aside class="left-nav" aria-label="Dashboard navigation">
+    <div class="left-nav-section">
+      <div class="left-nav-label">Overview</div>
+      <a class="left-nav-item active" href="#top" onclick="scrollToSection('top',this)"><span class="left-nav-dot"></span>Summary</a>
+    </div>
+    <div class="left-nav-divider"></div>
+    <div class="left-nav-section">
+      <div class="left-nav-label">Sections</div>
+      <a class="left-nav-item" href="#section-sustainability" onclick="scrollToSection('section-sustainability',this)"><span class="left-nav-dot" id="nav-dot-sustainability"></span>Ecological Limits</a>
+      <a class="left-nav-item" href="#section-society" onclick="scrollToSection('section-society',this)"><span class="left-nav-dot" id="nav-dot-society"></span>Societal Foundations</a>
+      <a class="left-nav-item" href="#section-cascade" onclick="scrollToSection('section-cascade',this)"><span class="left-nav-dot" style="background:var(--accent)"></span>Education Cascade</a>
+    </div>
+  </aside>
+
+  <div class="main-content">
+    <main id="top">
+
+      <!-- Summary bar -->
+      <div id="summary" class="summary-bar">
+        <span style="color:var(--text-subtle);font-size:0.82rem">Loading indicators…</span>
+      </div>
+
+      <!-- Dynamic sections injected by dashboard.js -->
+      <div id="sections"></div>
+
+      <!-- Education cascade — the WELA test apparatus -->
+      <section class="section" id="section-cascade" style="scroll-margin-top:80px">
+        <h2 class="section-title">Education Cascade — from primary school funding to consequences</h2>
+        <p class="section-sub">
+          This cascade traces how underfunding of Danish primary school (folkeskolen) is argued
+          to ripple through learning, the labour market, income, health, and inequality. Each
+          arrow is a cited causal claim from the literature — direction, time lag, strength, and
+          confidence — not a model prediction. Hover an arrow for its source. The point is to
+          make the argument testable: where does it hold up, where does it break, and what data
+          would we need to know for sure.
+        </p>
+        <div class="cascade-panel">
+          <div class="cascade-legend">
+            <span class="lg"><span class="lg-line lg-green"></span>Reinforcing (same direction)</span>
+            <span class="lg"><span class="lg-line lg-red"></span>Trade-off (opposing)</span>
+            <span class="lg"><span class="lg-line lg-solid"></span>High confidence</span>
+            <span class="lg"><span class="lg-line lg-dashed"></span>Medium</span>
+            <span class="lg"><span class="lg-line lg-dotted"></span>Low / contested</span>
+            <span class="lg" style="color:var(--text-subtle)">Line width = strength · hover an arrow for source</span>
+          </div>
+          <div id="gdp-strip" class="gdp-strip"></div>
+          <p class="cascade-drawer-hint">Click a node to see the real data behind it.</p>
+          <div id="cascade-simulator" class="cascade-simulator"></div>
+
+          <div class="cascade-layout">
+            <div id="cascade-graph"></div>
+            <div id="node-drawer" class="node-drawer hidden"></div>
+            <div class="cascade-side">
+              <div id="cascade-results" class="cascade-results"></div>
+              <div id="cascade-findings"></div>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="section-title" style="font-size:1.05rem;margin-top:32px">Other cascades (illustrative — not built)</h2>
+        <p class="section-sub">Sketches for the next deep cascade. Title + what data and cascade pattern each would require.</p>
+        <div class="stub-grid">
+          <div class="stub-card">
+            <span class="badge-illustrative">Illustrative</span>
+            <h3>The green transition / just transition</h3>
+            <p>GHG↓ → short-term sector unemployment (coal/oil/transport) → offset by green jobs over time → better air quality → more healthy life years. The classic trade-off with negative short-term, positive long-term.</p>
+            <div class="stub-data">Data: DST DRIVHUS, ENE2HO, green GVA · IPCC AR6 WG3 (just-transition costs), GBD (air quality→HALE).</div>
+          </div>
+          <div class="stub-card">
+            <span class="badge-illustrative">Illustrative</span>
+            <h3>Inequality and social cohesion</h3>
+            <p>Income distribution (Gini) → social trust → institutional trust → life satisfaction. The soft-data cascade — where the data wishlist is longest, because trust measures aren't produced in Denmark today.</p>
+            <div class="stub-data">Data: Gini (DST), but trust is missing → World Values Survey / Eurobarometer / EU-SILC.</div>
+          </div>
+          <div class="stub-card">
+            <span class="badge-illustrative">Illustrative</span>
+            <h3>The care economy / invisible work</h3>
+            <p>Unpaid care, housework, volunteering → wellbeing, health, women's labour market participation. The GDP-invisible cascade — almost pure data wishlist, which is the point.</p>
+            <div class="stub-data">Data: time-use surveys (sparse) · satellite accounts for household production.</div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="page-footer">
+        <span>Data: <a href="https://api.statbank.dk" target="_blank" rel="noopener">Danmarks Statistik StatBank</a></span>
+        <span>Carbon footprint: DST AFTRYK1 (experimental statistics)</span>
+        <span>Material flows: DST MRM2 · Water: VANDRG1 · Green economy: GRON1</span>
+        <span>Targets: Klimaloven 2020 (70% GHG cut by 2030) · EU CEAP 2020</span>
+        <span>Framework: Beyond GDP / SEEA green national accounts</span>
+      </footer>
+
+    </main>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+<script src="js/zones.js"></script>
+<script src="js/dashboard.js"></script>
+<script src="js/cascade-engine.js"></script>
+<script src="js/cascade-translate.js"></script>
+<script src="js/cascade.js"></script>
+<script>
+  // ── Theme toggle ────────────────────────────────────────────────────────────
+  document.getElementById('theme-toggle').addEventListener('click', function() {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    try { localStorage.setItem('bgdp-dk-theme', next); } catch(e) {}
+  });
+
+  // ── Smooth scroll nav ───────────────────────────────────────────────────────
+  function scrollToSection(id, link) {
+    document.querySelectorAll('.left-nav-item').forEach(el => el.classList.remove('active'));
+    link.classList.add('active');
+    if (id === 'top') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      const el = document.getElementById(id);
+      if (el) el.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
+  // Highlight nav item on scroll
+  const NAV_SECTIONS = ['section-sustainability','section-society','section-cascade'];
+  const NAV_LINKS = {
+    'section-sustainability': document.querySelector('[href="#section-sustainability"]'),
+    'section-society':        document.querySelector('[href="#section-society"]'),
+    'section-cascade':        document.querySelector('[href="#section-cascade"]'),
+  };
+  const SUMMARY_LINK = document.querySelector('[href="#top"]');
+
+  function onScroll() {
+    let active = null;
+    for (const id of NAV_SECTIONS) {
+      const el = document.getElementById(id);
+      if (!el) continue;
+      const rect = el.getBoundingClientRect();
+      if (rect.top <= 120) active = id;
+    }
+    document.querySelectorAll('.left-nav-item').forEach(el => el.classList.remove('active'));
+    if (active && NAV_LINKS[active]) {
+      NAV_LINKS[active].classList.add('active');
+    } else {
+      SUMMARY_LINK.classList.add('active');
+    }
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  // Read a ?lever=<kr> permalink (written by cascade.js's updatePermalink) and apply it
+  // on load — lets a shared URL reopen the dashboard at a specific simulated scenario.
+  function applyPermalinkState() {
+    const params = new URLSearchParams(window.location.search);
+    const raw = params.get('lever');
+    if (raw == null) return;
+    const value = Number(raw);
+    if (!Number.isFinite(value)) return;
+    const { min, max } = leverHistoricalRange();
+    const today = simBaselineValue();
+    const sliderMin = Math.min(min, 0) * 0.98;
+    const sliderMax = Math.max(max, today * 2.00) * 1.02;
+    if (value < sliderMin || value > sliderMax) return;
+    runSimulation(value);
+    const target = document.getElementById('section-cascade');
+    if (target) target.scrollIntoView();
+  }
+
+  // ── Init dashboard + hide overlay ───────────────────────────────────────────
+  Promise.all([
+    loadAll(),
+    loadCascade(),
+  ]).then(() => {
+    buildSections();
+    buildSummary();
+    patchSectionIds();
+    updateNavDots();
+    renderCascade();
+    applyPermalinkState();
+    document.getElementById('loading-overlay').classList.add('hidden');
+  }).catch(err => {
+    document.getElementById('loading-overlay').innerHTML =
+      `<div style="color:var(--red);text-align:center;padding:32px">
+        <div style="font-size:1.1rem;font-weight:700;margin-bottom:10px">Could not load data</div>
+        <div style="font-size:0.85rem;color:var(--text-muted)">Run: <code>python -m http.server 8765</code><br>Then open <strong>http://localhost:8765</strong></div>
+        <div style="font-size:0.75rem;color:var(--text-subtle);margin-top:8px">${err.message}</div>
+      </div>`;
+  });
+
+  // Assign #section-sustainability and #section-society IDs after dashboard.js builds them
+  function patchSectionIds() {
+    const sectionEls = document.querySelectorAll('#sections .section');
+    const idMap = ['section-sustainability','section-society'];
+    sectionEls.forEach((el, i) => {
+      if (idMap[i]) el.id = idMap[i];
+    });
+  }
+
+  // Color nav dots based on section status
+  function updateNavDots() {
+    // Ecological: read from summary counts already computed
+    const sustainIds = ['climate_footprint_pc','material_flow_pc','water_abstraction','green_gva'];
+    const societyIds = ['life_expectancy','unemployment','income','ghg'];
+    function sectionLevel(ids) {
+      let green=0, amber=0, red=0;
+      for (const id of ids) {
+        if (!manifest[id]) continue;
+        const latest = getLatest(id);
+        if (!latest || !manifest[id].anchors) continue;
+        const s = normScore(latest.value, manifest[id].direction, manifest[id].anchors);
+        const l = scoreToLevel(s);
+        if (l==='green') green++; else if (l==='amber') amber++; else if (l==='red') red++;
+      }
+      if (red > 0) return 'red';
+      if (amber > 0) return 'amber';
+      if (green > 0) return 'green';
+      return 'gray';
+    }
+    const levels = {
+      'nav-dot-sustainability': sectionLevel(sustainIds),
+      'nav-dot-society':        sectionLevel(societyIds),
+    };
+    for (const [dotId, level] of Object.entries(levels)) {
+      const dot = document.getElementById(dotId);
+      if (!dot) continue;
+      dot.className = 'left-nav-dot' + (level !== 'gray' ? ' dot-' + level : '');
+    }
+  }
+</script>
+
+</body>
+</html>

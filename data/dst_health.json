@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "source": "Danmarks Statistik StatBank API",
+    "table": "SILC60",
+    "label": "Share of population (16+) reporting bad or very bad health",
+    "unit": "percent (lower_better)",
+    "fetched": "2026-07-01",
+    "latest_year": "2025"
+  },
+  "data": {
+    "DNK": {
+      "name": "Denmark",
+      "value": 8.1,
+      "year": "2025",
+      "series": {
+        "2021": 9.2,
+        "2022": 9.8,
+        "2023": 9.5,
+        "2024": 7.7,
+        "2025": 8.1
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "source": "Danmarks Statistik StatBank API",
+    "table": "SILC52",
+    "label": "Average trust-in-strangers score, population 16+",
+    "unit": "score (0-10, higher_better)",
+    "fetched": "2026-07-01",
+    "latest_year": "2025"
+  },
+  "data": {
+    "DNK": {
+      "name": "Denmark",
+      "value": 5.7,
+      "year": "2025",
+      "series": {
+        "2021": 5.8,
+        "2022": 5.8,
+        "2023": 5.6,
+        "2024": 5.6,
+        "2025": 5.7
+      }
+    }
+  }
+}
