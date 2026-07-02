@@ -32,6 +32,21 @@ const CASCADE_FOCUS = 'education';
 let simLeverValue = null;
 let simLastResult = null;        // last simulateCascade() output, for the results panel
 
+// Which direction is the GOOD outcome for each node — used to color nodes by whether
+// the simulated push moved them toward or away from what's desirable, not just by raw
+// delta sign. E.g. NEET going down is good (green), even though its delta is negative.
+const CASCADE_DESIRABLE_DIRECTION = {
+  learning_outcomes: 'up',
+  income: 'up',
+  life_satisfaction: 'up',
+  hale: 'up',
+  life_expectancy: 'up',
+  neet: 'down',
+  unemployment: 'down',
+  gini: 'down',
+  poverty_rate: 'down',
+};
+
 // Manual node layout (x,y in a 0..100 grid) so the cascade reads left→right as a
 // story rather than a force-directed hairball. Lever on the left, outcomes on the right.
 const CASCADE_LAYOUT = {
@@ -98,9 +113,9 @@ function simulateCascade(leverValue, focus = CASCADE_FOCUS) {
   const leverId = cascadeData?.cascades?.[focus]?.lever;
 
   // Normalize the push as percent change from today's real funding level, not raw kr —
-  // this keeps the input (and everything downstream) unitless. +100% maps to the clamp
-  // boundary (+/-1) so the preset range (-100/-20/-10/Today/+10/+20/+100) spans the full
-  // illustrative index range.
+  // this keeps the input (and everything downstream) unitless. Presets span
+  // -50/-20/-10/Today/+10/+20/+50; the underlying clamp still allows +/-100% via manual
+  // slider drag past the presets.
   const pushFraction = clampUnit((leverValue - simBaselineValue()) / simBaselineValue());
 
   const { deltas, dominantEdge } = propagateCascade(edges, leverId, pushFraction);
@@ -164,11 +179,17 @@ function buildCascadeOption(focus = CASCADE_FOCUS) {
     // out so even a 0.1 push reads as a clearly different size from a 0.3 push.
     const magnitude = Math.min(Math.abs(delta), 1);
     const neutralSize = 46;
-    const sizeShift = Math.sqrt(magnitude) * 30;
+    const sizeShift = Math.sqrt(magnitude) * 46;
     const simSize = delta > 0.02 ? neutralSize + sizeShift
-                  : delta < -0.02 ? neutralSize - sizeShift
+                  : delta < -0.02 ? Math.max(neutralSize - sizeShift, 14)
                   : neutralSize;
-    const deltaColor = delta > 0.02 ? c.green : delta < -0.02 ? c.red : (isLever ? c.marker : c.surface);
+    // Color encodes desirability, not raw sign: for "down is good" nodes (neet, gini,
+    // etc.) a negative delta is green, a positive delta is red — inverted from nodes
+    // where up is good. Size (above) still tracks raw delta sign/magnitude regardless.
+    const desirable = CASCADE_DESIRABLE_DIRECTION[id] || 'up';
+    const isGoodMove = desirable === 'up' ? delta > 0.02 : delta < -0.02;
+    const isBadMove = desirable === 'up' ? delta < -0.02 : delta > 0.02;
+    const deltaColor = isGoodMove ? c.green : isBadMove ? c.red : (isLever ? c.marker : c.surface);
     return {
       name: id,
       x: pos.x,
@@ -235,8 +256,10 @@ function buildCascadeOption(focus = CASCADE_FOCUS) {
         if (p.name === leverId) return `<b>${lbl}</b>`;
         const delta = deltas[p.name];
         if (delta === undefined || Math.abs(delta) <= 0.02) return `<b>${lbl}</b><br/>no simulated effect from this push`;
-        const dir = delta > 0 ? 'up' : 'down';
-        return `<b>${lbl}</b><br/>Simulated: moves ${dir} (illustrative impact index ${delta.toFixed(2)})`;
+        const desirable = CASCADE_DESIRABLE_DIRECTION[p.name] || 'up';
+        const isGoodMove = desirable === 'up' ? delta > 0 : delta < 0;
+        const outcome = isGoodMove ? 'a better outcome' : 'a worse outcome';
+        return `<b>${lbl}</b><br/>Simulated: moves toward ${outcome} (illustrative impact index ${delta.toFixed(2)})`;
       },
     },
     animationDuration: 600,
@@ -291,13 +314,13 @@ function simPresets() {
   // increases — the cascade's own thesis is about underfunding, so -10%/-20% matter
   // at least as much as the upside presets.
   return [
-    { label: '-100%', value: 0 },
+    { label: '-50%', value: today * 0.50 },
     { label: '-20%', value: today * 0.80 },
     { label: '-10%', value: today * 0.90 },
     { label: 'Today', value: today },
     { label: '+10%', value: today * 1.10 },
     { label: '+20%', value: today * 1.20 },
-    { label: '+100%', value: today * 2.00 },
+    { label: '+50%', value: today * 1.50 },
   ];
 }
 
@@ -336,10 +359,10 @@ function renderCascadeSimulator(fromSlider = false) {
   const { min, max } = leverHistoricalRange();
   const today = simBaselineValue();
   const fmt = (v) => Math.round(v).toLocaleString('da-DK');
-  // Slider spans the full preset range (-100%..+100% of today, incl. the illustrative
-  // extremes) plus a hair past the historical envelope on either side.
-  const sliderMin = Math.min(min, 0) * 0.98;
-  const sliderMax = Math.max(max, today * 2.00) * 1.02;
+  // Slider spans the full preset range (-50%..+50% of today, the policy-sized extremes)
+  // plus a hair past the historical envelope on either side.
+  const sliderMin = Math.min(min, today * 0.50) * 0.98;
+  const sliderMax = Math.max(max, today * 1.50) * 1.02;
 
   el.innerHTML = `
     <div class="sim-header">
@@ -475,17 +498,17 @@ function renderCascadeResults(focus = CASCADE_FOCUS) {
           const prov = e ? CASCADE_PROVENANCE[edgeKey(e)] : null;
           const dirLabel = d > 0 ? 'up' : 'down';
           const dirClass = d > 0 ? 'up' : 'down';
-          const lagLabel = e ? `+${e.lag_years}y` : '';
+          const lagLabel = e ? `Effect appears ~${e.lag_years} year${e.lag_years === 1 ? '' : 's'} later` : '';
           return `<li class="sim-result ${dirClass}">
             <div class="sim-result-head">
               <b>${pos.label.replace(/\n/g, ' ')}</b>
-              <span class="sim-result-lag">${lagLabel}</span>
             </div>
             <div class="sim-result-bar-row">
               <span class="sim-result-dir">${dirLabel === 'up' ? '▲' : '▼'} ${Math.abs(d).toFixed(2)}</span>
               ${e?.contested ? '<span class="sim-result-tag">contested</span>' : ''}
               ${e?.draft && !prov ? '<span class="sim-result-tag">draft, no cited magnitude</span>' : ''}
             </div>
+            ${lagLabel ? `<div class="sim-result-lag">${lagLabel}</div>` : ''}
             ${prov ? `<div class="sim-result-prov">Cited: ${prov}</div>` : ''}
             ${renderInlineTranslation(id, translations)}
           </li>`;
@@ -523,7 +546,11 @@ function renderGdpStrip() {
       <span class="gdp-strip-value">${latest.value.toLocaleString('da-DK')} bn kr <span class="${yoyClass}">(${yoySign}${yoyPct.toFixed(1)}% YoY)</span></span>
     </div>
     <div id="gdp-strip-chart" class="gdp-strip-spark"></div>
-    <p class="gdp-strip-note">GDP the year funding changes: barely moves. Everything below is what it doesn't see.</p>
+    <p class="gdp-strip-note">GDP barely moves the year funding changes. Growth research finds it's <i>learning outcomes</i>,
+      not spending itself, that moves long-run growth — the cascade below traces that exact channel: funding →
+      learning → income, the mechanism a single year's GDP number can't show.
+      <span class="gdp-strip-cite">Hanushek &amp; Woessmann (2020): cognitive skills, not spending or years of schooling, explain cross-country growth differences.</span>
+    </p>
   `;
 
   const chartEl = document.getElementById('gdp-strip-chart');

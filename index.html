@@ -176,7 +176,7 @@
     .sim-result.up{border-left-color:var(--green);}
     .sim-result.down{border-left-color:var(--red);}
     .sim-result-head{display:flex;justify-content:space-between;align-items:baseline;color:var(--text-muted);}
-    .sim-result-lag{font-size:0.72rem;color:var(--text-subtle);}
+    .sim-result-lag{font-size:0.8rem;color:var(--text-muted);margin-top:4px;font-weight:500;}
     .sim-result-bar-row{display:flex;align-items:center;gap:8px;margin-top:2px;flex-wrap:wrap;}
     .sim-result-dir{font-weight:700;font-size:0.85rem;}
     .sim-result.up .sim-result-dir{color:var(--green);}
@@ -210,6 +210,7 @@
     .gdp-strip-value .yoy-neg{color:var(--red);}
     .gdp-strip-spark{width:120px;height:34px;flex-shrink:0;}
     .gdp-strip-note{font-size:0.85rem;color:var(--text-muted);line-height:1.4;flex:1;min-width:200px;}
+    .gdp-strip-cite{display:block;font-size:0.72rem;color:var(--text-subtle);font-style:italic;margin-top:2px;}
 
     /* ── Node data drawer (click-a-node data transparency) ────────────────────── */
     .node-drawer{position:absolute;top:12px;right:12px;width:320px;max-width:calc(100% - 24px);max-height:calc(100% - 24px);overflow-y:auto;background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius);box-shadow:var(--shadow-lift);padding:16px 18px;z-index:20;transition:opacity var(--transition-fast),transform var(--transition-fast);}

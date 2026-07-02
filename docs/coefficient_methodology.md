@@ -267,3 +267,25 @@ precise definition) — flagged explicitly rather than presented as direct estim
   calibration — most links are still data-starved today.
 - A longer trust series would close the inequality→social cohesion link and feed a
   broader wellbeing index.
+
+## GDP strip caption — rejected a direct spending→GDP number (2026-07-02)
+
+The GDP reference strip (`renderGdpStrip()`, js/cascade.js) originally had a vague
+caption ("GDP the year funding changes: barely moves"). The user asked for it to state
+an actual insight, grounded in real education-spending→GDP growth literature.
+
+**Search result:** cross-country panel-regression estimates of education spending's
+effect on GDP growth exist but are inconsistent and implausibly large (one study: +1pp
+spending/GDP → +0.76pp GDP growth), and are correlational, not the quasi-experimental
+designs this project requires elsewhere (Jackson/Johnson/Persico, Hyman, twin-pair
+studies). Hanushek & Woessmann's well-identified growth-accounting work — the strongest
+evidence base found — explicitly finds it is **cognitive skills/learning outcomes**, not
+spending or years of schooling, that predict cross-country long-run growth differences.
+Forcing a spending→GDP number onto the strip would have repeated the exact false-
+precision mistake already rejected on `income→hale` (Phase 3, IRR-to-HALE conversion).
+
+**Decision:** reframed the caption around the real finding instead of inventing a
+number — GDP's yearly figure can't see the growth channel this cascade already models
+(funding → learning_outcomes → income), because growth research locates the effect at
+learning outcomes, not spending. Cites Hanushek & Woessmann (2020) by name only, no
+numeric coefficient claimed. See `.gdp-strip-cite` in the rendered strip.
