@@ -6,7 +6,7 @@
   <title>Beyond GDP Denmark 2.0</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/v2.css?v=21">
+  <link rel="stylesheet" href="css/v2.css?v=22">
 </head>
 <body>
   <aside class="side">
@@ -30,18 +30,34 @@
     <div id="page"></div>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
-  <script src="js/app.js?v=21"></script>
-  <script src="js/insights.js?v=21"></script>
-  <script src="js/kpi.js?v=21"></script>
-  <script src="js/pace.js?v=21"></script>
-  <script src="js/compose.js?v=21"></script>
-  <script src="js/levers.js?v=21"></script>
-  <script src="js/quadrant.js?v=21"></script>
-  <script src="js/page-eco.js?v=21"></script>
-  <script src="../js/cascade-engine.js?v=21"></script>
-  <script src="../js/cascade-translate.js?v=21"></script>
-  <script src="js/page-edu.js?v=21"></script>
-  <script src="js/page-soc.js?v=21"></script>
-  <script src="js/page-overview.js?v=21"></script>
+  <script src="js/app.js?v=22"></script>
+  <script src="js/insights.js?v=22"></script>
+  <script src="js/kpi.js?v=22"></script>
+  <script src="js/pace.js?v=22"></script>
+  <script src="js/compose.js?v=22"></script>
+  <script src="js/levers.js?v=22"></script>
+  <script src="js/quadrant.js?v=22"></script>
+  <script src="js/page-eco.js?v=22"></script>
+  <script src="../js/cascade-engine.js?v=22"></script>
+  <script src="../js/cascade-translate.js?v=22"></script>
+  <script src="js/page-edu.js?v=22"></script>
+  <script src="js/page-soc.js?v=22"></script>
+  <script src="js/page-overview.js?v=22"></script>
+  <script src="js/tour.js?v=22"></script>
+
+  <!-- First-visit guided tour. Hidden until tour.js decides to run it. -->
+  <div class="tour" id="tour" hidden>
+    <div class="tour-ring" id="tourRing"></div>
+    <div class="tour-card" id="tourCard" role="dialog" aria-modal="true" aria-labelledby="tourTitle" aria-describedby="tourBody">
+      <button class="tour-close" id="tourClose" type="button" aria-label="Close">&times;</button>
+      <p class="tour-step" id="tourStep"></p>
+      <h2 class="tour-title" id="tourTitle"></h2>
+      <p class="tour-body" id="tourBody"></p>
+      <div class="tour-actions">
+        <button class="tour-skip" id="tourSkip" type="button">Skip</button>
+        <button class="tour-next" id="tourNext" type="button">Next</button>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

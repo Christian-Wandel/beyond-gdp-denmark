@@ -132,5 +132,5 @@ window.V2 = window.V2 || {};
     resizeTimer = setTimeout(() => charts.forEach(c => c.inst.resize()), 120);
   });
   window.addEventListener('hashchange', route);
-  document.addEventListener('DOMContentLoaded', () => { initTheme(); route(); V2.navStatus(); });
+  document.addEventListener('DOMContentLoaded', () => { initTheme(); route().then(() => V2.tour && V2.tour.start()); V2.navStatus(); });
 })(window.V2);
