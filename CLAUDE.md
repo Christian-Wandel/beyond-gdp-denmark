@@ -42,6 +42,37 @@ Phase 2 (lag-aware animation) and Phase 3 (monitoring) not yet built — see roa
 tag, no `#scenario-panel` container, `initScenarios()` is never called. Fate deferred by
 the owner (2026-07-02).
 
+## Dashboard 2.0 (decision dashboard, `v2/`) — in progress since 2026-10-21
+
+Separate from `index.html` (untouched). Plan: `~/.claude/plans/i-am-looking-at-resilient-perlis.md`.
+Four pages (Overview, Ecological, Societal, Education), one 4-row template: status → pace/trend → sources → levers.
+Live: https://christian-wandel.github.io/beyond-gdp-denmark/v2/
+
+```bash
+python fetch_dst_v2.py        # MRO2, DRIVHUS2, NEET4, IFOR41 (by municipality), IFOR32, HISBR, PRIS113 → data/dst_v2_*.json
+python prepare_v2.py          # → data/v2/{eco,edu,soc,indicators}.json (no API calls)
+python prepare_v2.py --test   # calc self-tests
+node tests/test_v2_calcs.js   # invariants on data/v2 (bridges close, LMDI sums, pace, NEET4 = NEET1)
+python -m http.server 8765    # then open /v2/
+```
+
+- Ecological hero = MRO2 `TOTLULU`/`GHGEXBIO` (territorial incl. LULUCF, the Klimaloven basis). 1990 = 78.5 Mt
+  in DST's current vintage (official baseline is slightly lower).
+- Old `dst_ghg` = DRIVHUS `MV` (industries only, national-accounts basis) — it cannot track Klimaloven.
+- Sector charts: DRIVHUS2 `OPPRINCIP=DIR`, with Danish ships + planes abroad (MRO2 `BUNKSKIB`+`BUNKFLY`)
+  split out of transport. Without the split, shipping (~46 Mt) dominates.
+- `dst_energy_mix`: crude oil is refinery input and double counts refined products — `prepare_v2.py` drops it.
+- **No invented targets.** Pace / "× faster" / target lines only where an official target exists (Klimaloven on
+  Ecological). Societal and Education compare each measure with Denmark's own record since 2008. The 0–100
+  score (hand-set anchors in `indicator_meta.json`, equal weights) appears only as a labelled "summary index" card.
+  Quadrants and watch lists (`js/quadrant.js`) use the own record too: latest position on the worst-to-best range
+  since 2008 vs its ten-year move. Exception kept by Christian: the Ecological KPI cards keep their anchor
+  verdicts (e.g. the 4 t climate-footprint mark).
+- v2 scores income in real latest-year kr (CPI PRIS113) and uses full 4-quarter years for unemployment. The old
+  `index.html` still uses nominal income and averages partial years.
+- Bump `?v=N` in `v2/index.html` after every JS/CSS change.
+- Status (2026-10-21): all four pages built and approved (Overview is the landing page; nav dots are data-driven).
+
 ## Structure
 
 ```
